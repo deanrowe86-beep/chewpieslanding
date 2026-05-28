@@ -11,9 +11,9 @@ export default function Index() {
             Most small dog owners only discover hidden joint stress after visible limping has already begun. By then, the damage is often further along than anyone realised.
           </p>
           <div className="space-y-6 text-base sm:text-lg text-muted-foreground leading-relaxed mb-12 max-w-3xl">
-            <p>She still follows you from room to room. A loyal little shadow whose entire world is keeping up with your footsteps. But lately you have noticed the briefest pause at the foot of the bed. A quiet, anxious hesitation before the stairs. Or a soft whimper when she looks up at the sofa, hoping you will reach down and lift her up.</p>
-            <p>You tell yourself she is just slowing down. That it is just what happens as they get older.</p>
-            <p>But deep down, a heavy guilt sets in as you watch your baby struggle. She depends on you for everything, yet she is quietly enduring a hidden discomfort, giving you that heartbreaking look that begs for relief from a silent suffering she cannot voice.</p>
+            <p>She still follows you from room to room. A loyal little shadow whose entire world is keeping up with your footsteps. But lately you have noticed the briefest pause at the foot of the bed. A quiet hesitation before the stairs. A soft whimper when she looks up at the sofa.</p>
+            <p>You tell yourself she is just getting older.</p>
+            <p>But deep down, you know something is not right. She depends on you for everything. And she cannot tell you when she is hurting.</p>
           </div>
           <button className="px-8 sm:px-12 py-3 sm:py-4 bg-foreground text-background font-medium rounded hover:opacity-90 transition-opacity">
             Reserve My Jar Now
@@ -25,35 +25,70 @@ export default function Index() {
       <section className="py-20 sm:py-28 lg:py-32 px-6 sm:px-8 lg:px-12 bg-white">
         <div className="max-w-7xl mx-auto">
           <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold mb-12 text-foreground leading-tight">
-            The silent impact. Why a standard living room couch is one of the greatest daily threats to a small dog's joints.
+            The silent impact. Why your couch may be your small dog's biggest daily threat.
           </h2>
           <div className="grid grid-cols-1 lg:grid-cols-3 gap-8 lg:gap-16">
             <div className="lg:col-span-1"></div>
             <div className="lg:col-span-2 space-y-6">
               <p className="text-base sm:text-lg text-muted-foreground leading-relaxed">
-                To a human, a standard eighteen-inch sofa represents a familiar place of rest. To a small dog under ten kilograms, descending from that same sofa is the biomechanical equivalent of a human jumping from a first-storey roof. Multiple times. Every single day.
+                To a small dog under ten kilograms, jumping off a standard sofa is the biomechanical equivalent of a human leaping from a first-storey roof. Multiple times. Every single day.
               </p>
               <p className="text-base sm:text-lg text-muted-foreground leading-relaxed">
-                Emerging veterinary orthopedic research reveals that upon landing on standard household flooring, a small dog's forelimbs must absorb impact forces of up to six times their total body weight, depending on landing velocity and flooring traction. On timber floors, that force increases further still.
+                Toy breeds also carry an instinct to mask pain long before any visible sign appears. By the time limping, stiffness, or reluctance to jump becomes obvious, the damage to tiny joints is often already advanced.
               </p>
               <p className="text-base sm:text-lg text-muted-foreground leading-relaxed">
-                What makes this particularly difficult for small dog owners to detect is the second factor at play. Toy breeds carry an ancient survival instinct to mask pain and vulnerability. A Chihuahua experiencing early-stage medial patellar luxation. A Dachshund with early intervertebral disc compression. A French Bulldog with developing spinal arthritis. All of them continue acting energetic, affectionate, and apparently well long after internal joint stress has quietly begun.
+                And most joint supplements make it worse. Products built for forty pound dogs, relabelled for small breeds, overwhelm sensitive digestion with oversized dosages and harsh fillers. The dog refuses to eat them. Or gets sick. The owner gives up. And the joint stress continues unaddressed for months or years longer.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Founder's Note Section */}
+      <section className="py-20 sm:py-28 lg:py-32 px-6 sm:px-8 lg:px-12 bg-white">
+        <div className="max-w-5xl mx-auto">
+          <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold mb-12 text-foreground leading-tight">
+            A note from our founders. Dog dad Dean and Chewpie the Chihuahua.
+          </h2>
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+            <div className="space-y-6">
+              <p className="text-base sm:text-lg text-muted-foreground leading-relaxed">
+                I am forty years old. Every morning I take fish oil and bone broth. Not because something is wrong. Because I know what happens when you wait until it is.
               </p>
               <p className="text-base sm:text-lg text-muted-foreground leading-relaxed">
-                By the time visible limping, stiffness after naps, or reluctance to jump appears consistently, the cumulative wear on articular cartilage and stabilising joint tissue is often already advanced.
+                I have a six-pound Chihuahua named Chewpie. One morning I noticed her hesitating at the foot of the bed. That tiny pause before a jump she used to make without thinking.
               </p>
               <p className="text-base sm:text-lg text-muted-foreground leading-relaxed">
-                There is a third factor most owners never consider.
+                I started researching. What I found disturbed me. The daily impact on her tiny joints. The way small dogs mask discomfort until damage is advanced. The fact that nothing on the market was actually built for a dog her size.
               </p>
               <p className="text-base sm:text-lg text-muted-foreground leading-relaxed">
-                Small dogs live significantly longer than large breeds. A Chihuahua can live fourteen to eighteen years. A Pomeranian, twelve to sixteen. A Yorkshire Terrier, thirteen to sixteen. That means more years of couch jumps. More years of stair climbing. More years of hardwood landings. More years of repetitive impact on joints and cartilage that were never designed for a human-sized world.
+                She deserves the same standard of daily care I give myself.
               </p>
               <p className="text-base sm:text-lg text-muted-foreground leading-relaxed">
-                Most joint supplements on the market were designed around medium and large breed assumptions. A chew formulated for a thirty-five pound dog contains the same dosage of active ingredients and binders as one given to a five pound Chihuahua. For tiny, sensitive digestive systems, this regularly leads to stomach upset, diarrhea, or outright refusal to eat the product at all.
+                So we built it. Chewpies is not a rescue product. It is a daily ritual. Preventative care, precision-dosed for small dogs, before things get serious.
               </p>
               <p className="text-base sm:text-lg text-muted-foreground leading-relaxed">
-                The owner tries one supplement. The dog refuses it or gets sick. They try another. Same result. The owner concludes supplements simply do not work for their dog. And the joint stress continues, unaddressed, for months or years longer.
+                Our mission is simple. Build a brand that gives back. To the small dogs who give us everything.
               </p>
+              <div className="pt-4">
+                <p className="text-sm sm:text-base font-medium text-foreground">
+                  Dean Rowe
+                </p>
+                <p className="text-sm text-muted-foreground">
+                  Co-founder. Chewpies Chewables.
+                </p>
+                <p className="text-sm text-muted-foreground">
+                  Dog dad to Chewpie. The original Chewpie.
+                </p>
+              </div>
+            </div>
+            <div className="space-y-6">
+              <div className="aspect-square rounded-lg border border-muted-foreground bg-white flex items-center justify-center">
+                <p className="text-muted-foreground text-center">Photo 1<br/>Dean and Chewpie in the sun</p>
+              </div>
+              <div className="aspect-square rounded-lg border border-muted-foreground bg-white flex items-center justify-center">
+                <p className="text-muted-foreground text-center">Photo 2<br/>Dean on the bike with Chewpie</p>
+              </div>
             </div>
           </div>
         </div>
@@ -76,7 +111,7 @@ export default function Index() {
                 ))}
               </div>
               <p className="text-base sm:text-lg text-muted-foreground leading-relaxed">
-                "I spent $50 on chews from another brand and my Chihuahua wouldn't even touch them. The smell was terrible. With Chewpies she actually runs to get her chew. Within three weeks I noticed her jumping on the couch again without hesitating."
+                "I spent $50 on chews from another brand and my Chihuahua wouldn't even touch them. With Chewpies she actually runs to get her chew. Within three weeks she was jumping on the couch again."
               </p>
               <p className="text-sm sm:text-base text-foreground font-medium">
                 Sarah M.
@@ -95,7 +130,7 @@ export default function Index() {
                 ))}
               </div>
               <p className="text-base sm:text-lg text-muted-foreground leading-relaxed">
-                "My Dachshund started showing signs of back stiffness at age four. I didn't want to wait until it got serious. Chewpies is the first supplement he actually eats willingly and his morning stiffness has visibly improved."
+                "My Dachshund started showing back stiffness at age four. Chewpies is the first supplement he eats willingly and his morning stiffness has visibly improved."
               </p>
               <p className="text-sm sm:text-base text-foreground font-medium">
                 James T.
@@ -114,7 +149,7 @@ export default function Index() {
                 ))}
               </div>
               <p className="text-base sm:text-lg text-muted-foreground leading-relaxed">
-                "I feel like I have my young dog back again. She's doing zoomies around the backyard. I cried the first time she jumped up next to me on the couch because I'd forgotten what that felt like."
+                "I feel like I have my young dog back. She is doing zoomies around the backyard. I cried the first time she jumped up next to me on the couch because I had forgotten what that felt like."
               </p>
               <p className="text-sm sm:text-base text-foreground font-medium">
                 Michelle R.
@@ -131,22 +166,19 @@ export default function Index() {
       <section className="py-20 sm:py-28 lg:py-32 px-6 sm:px-8 lg:px-12 bg-white">
         <div className="max-w-5xl mx-auto">
           <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-center mb-16 text-foreground leading-tight">
-            Introducing Chewpies Chewables. The only daily mobility chew built exclusively for Chihuahuas, Yorkies, Pomeranians, Dachshunds, French Bulldogs, Shih Tzus, and toy breeds under 10kg.
+            Introducing Chewpies Chewables. Built exclusively for Chihuahuas, Yorkies, Pomeranians, Dachshunds, French Bulldogs, Shih Tzus, and toy breeds under 10kg.
           </h2>
 
           {/* Product Introduction Copy */}
           <div className="mb-16 max-w-3xl mx-auto space-y-6">
             <p className="text-base sm:text-lg text-muted-foreground leading-relaxed">
-              Not a large dog formula cut into smaller pieces. Not a generic supplement that groups your five pound Chihuahua into the same dosing category as a thirty-five pound Spaniel.
+              Not a large dog formula cut into smaller pieces. Built from the ground up for small dogs. The ones whose joints are quietly working harder than any owner realises.
             </p>
             <p className="text-base sm:text-lg text-muted-foreground leading-relaxed">
-              Chewpies was formulated from the ground up for one specific type of dog. The small ones. The ones absorbing six times their body weight in impact forces every time they launch themselves off a sofa. The ones whose joints are quietly working harder than any owner realises.
+              If your dog has refused every supplement you have tried, it is almost certainly the smell. Chewpies uses a natural savoury flavour with zero marine shellfish odour. Dogs treat it like a reward. Not a supplement.
             </p>
             <p className="text-base sm:text-lg text-muted-foreground leading-relaxed">
-              <span className="text-foreground font-medium">Address objection 1:</span> If your small dog has refused every supplement you have tried, it is almost certainly because of the smell. Most joint chews rely on marine shellfish sources for glucosamine and green-lipped mussel extract. These ingredients produce a strong, pungent fish odour that toy breeds, particularly Chihuahuas and Yorkies, find deeply repellent. Chewpies uses a natural savoury flavour profile with zero marine shellfish odour. Dogs treat it like a reward. Not a supplement.
-            </p>
-            <p className="text-base sm:text-lg text-muted-foreground leading-relaxed">
-              <span className="text-foreground font-medium">Address objection 2:</span> If previous supplements have upset your dog's stomach, it is because tiny digestive systems were never designed to process the binder loads and ingredient concentrations built for medium and large dogs. Every Chewpies chew is precision-dosed specifically for dogs under 10kg. No harsh fillers. No cheap binders. No digestive overload.
+              If supplements have upset your dog's stomach before, it is because tiny digestive systems were never designed for large breed dosages. Every Chewpies chew is precision-dosed for dogs under 10kg. No harsh fillers. No digestive overload.
             </p>
           </div>
 
@@ -369,13 +401,7 @@ export default function Index() {
       <section className="py-20 sm:py-28 lg:py-32 px-6 sm:px-8 lg:px-12 bg-white">
         <div className="max-w-3xl mx-auto text-center space-y-6">
           <p className="text-base sm:text-lg text-muted-foreground leading-relaxed">
-            Your small dog lives in a world that was never built for their body. Every couch. Every staircase. Every hardwood floor. Every jump. Their joints are absorbing forces that accumulate quietly over years, long before any visible sign appears.
-          </p>
-          <p className="text-base sm:text-lg text-muted-foreground leading-relaxed">
-            You noticed the signs. That is why you are here.
-          </p>
-          <p className="text-base sm:text-lg text-muted-foreground leading-relaxed">
-            Chewpies exists for exactly this moment. Before it gets worse. Before the hesitation becomes a limp. Before the limp becomes a vet bill. Before the quiet suffering becomes impossible to ignore.
+            Your small dog was never built for a human-sized world. You noticed the signs. Now you can do something about it.
           </p>
           <p className="text-base sm:text-lg text-muted-foreground leading-relaxed">
             Reserve your jar. Give your tiny dog the protection they have always deserved.
