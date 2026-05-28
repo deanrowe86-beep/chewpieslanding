@@ -7,6 +7,16 @@ export default function Index() {
           <h1 className="text-4xl sm:text-5xl lg:text-6xl font-serif font-medium mb-8 text-[#2C2C2C] leading-tight">
             Why jumping off your couch may be quietly damaging your small dog's joints years before you notice.
           </h1>
+
+          {/* Hero Dogs Image */}
+          <div className="mb-12 flex justify-center">
+            <img
+              src="https://cdn.builder.io/api/v1/image/assets%2Fc70e54e2e4db4a77ba2ec462c6022187%2Fa1f3a204abcc4a5585f143a6e7a1d3a3?format=webp&width=800&height=1200"
+              alt="Five small dog breeds"
+              className="w-full max-h-96 h-auto object-contain"
+            />
+          </div>
+
           <p className="text-lg sm:text-xl text-[#666666] mb-12 leading-relaxed">
             Most small dog owners only discover hidden joint stress after visible limping has already begun. By then, the damage is further along than anyone realised.
           </p>
@@ -223,10 +233,15 @@ export default function Index() {
             </p>
           </div>
 
-          {/* Product Image Placeholder */}
+          {/* Product Image */}
           <div className="mb-16 flex justify-center">
-            <div className="w-full sm:w-96 aspect-square rounded-lg border border-[#E8C4B8] bg-[#FAFAF8] flex items-center justify-center">
-              <p className="text-[#999999]">Product image</p>
+            <div className="max-w-xs">
+              <img
+                src="https://cdn.builder.io/api/v1/image/assets%2Fc70e54e2e4db4a77ba2ec462c6022187%2F27d9ae06752a44ae863db0d76da9b470?format=webp&width=800&height=1200"
+                alt="Chewpies Chewables jar"
+                className="w-full max-w-sm h-auto object-contain"
+                style={{ maxWidth: "350px" }}
+              />
             </div>
           </div>
 
