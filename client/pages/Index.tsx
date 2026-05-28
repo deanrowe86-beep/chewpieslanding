@@ -98,11 +98,19 @@ export default function Index() {
 
             {/* Photos Section */}
             <div className="pt-8 grid grid-cols-1 md:grid-cols-2 gap-8">
-              <div className="aspect-video rounded-lg bg-[#FAFAF8] flex items-center justify-center">
-                <p className="text-[#999999] text-center text-sm">Dean and Chewpie in the sun</p>
+              <div className="rounded-lg overflow-hidden">
+                <img
+                  src="https://cdn.builder.io/api/v1/image/assets%2Fc70e54e2e4db4a77ba2ec462c6022187%2Fc828c90c535e4b79a0c894b9a5cad79e?format=webp&width=800&height=1200"
+                  alt="Dean and Chewpie in the sun"
+                  className="w-full h-auto object-cover"
+                />
               </div>
-              <div className="aspect-video rounded-lg bg-[#FAFAF8] flex items-center justify-center">
-                <p className="text-[#999999] text-center text-sm">Dean on the bike with Chewpie</p>
+              <div className="rounded-lg overflow-hidden">
+                <img
+                  src="https://cdn.builder.io/api/v1/image/assets%2Fc70e54e2e4db4a77ba2ec462c6022187%2F3ccd499b69b24a6abd03f9f724da7239?format=webp&width=800&height=1200"
+                  alt="Dean on the bike with Chewpie"
+                  className="w-full h-auto object-cover"
+                />
               </div>
             </div>
           </div>
