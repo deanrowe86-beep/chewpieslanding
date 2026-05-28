@@ -15,7 +15,7 @@ export default function Index() {
             <p>You tell yourself she is just getting older.</p>
             <p>But deep down, you know something is not right. She depends on you for everything. And she cannot tell you when she is hurting.</p>
           </div>
-          <button className="px-8 sm:px-12 py-3 sm:py-4 bg-[#C4614A] text-white font-medium rounded-lg hover:opacity-90 transition-opacity">
+          <button className="px-8 sm:px-12 py-3 sm:py-4 bg-[#A8B89C] text-white font-medium rounded-lg hover:opacity-90 transition-opacity">
             Reserve My Jar Now
           </button>
         </div>
@@ -115,7 +115,7 @@ export default function Index() {
                 {[...Array(5)].map((_, i) => (
                   <div
                     key={i}
-                    className="w-4 h-4 rounded-full bg-[#C4614A]"
+                    className="w-4 h-4 rounded-full bg-[#A8B89C]"
                   ></div>
                 ))}
               </div>
@@ -134,7 +134,7 @@ export default function Index() {
                 {[...Array(5)].map((_, i) => (
                   <div
                     key={i}
-                    className="w-4 h-4 rounded-full bg-[#C4614A]"
+                    className="w-4 h-4 rounded-full bg-[#A8B89C]"
                   ></div>
                 ))}
               </div>
@@ -153,7 +153,7 @@ export default function Index() {
                 {[...Array(5)].map((_, i) => (
                   <div
                     key={i}
-                    className="w-4 h-4 rounded-full bg-[#C4614A]"
+                    className="w-4 h-4 rounded-full bg-[#A8B89C]"
                   ></div>
                 ))}
               </div>
@@ -402,11 +402,11 @@ export default function Index() {
             <input
               type="email"
               placeholder="Your email address"
-              className="w-full px-6 py-4 border border-[#E8C4B8] rounded-lg bg-[#FAFAF8] text-[#2C2C2C] placeholder:text-[#999999] focus:outline-none focus:border-[#C4614A] transition-colors"
+              className="w-full px-6 py-4 border border-[#E8C4B8] rounded-lg bg-[#FAFAF8] text-[#2C2C2C] placeholder:text-[#999999] focus:outline-none focus:border-[#A8B89C] transition-colors"
             />
             <button
               type="submit"
-              className="w-full px-8 py-4 bg-[#C4614A] text-white font-medium rounded-lg hover:opacity-90 transition-opacity"
+              className="w-full px-8 py-4 bg-[#A8B89C] text-white font-medium rounded-lg hover:opacity-90 transition-opacity"
             >
               Reserve My Jar Now
             </button>
