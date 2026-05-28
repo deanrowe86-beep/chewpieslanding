@@ -440,8 +440,11 @@ export default function Index() {
               Plus we will credit an additional $10 to your account for your trouble.
             </p>
           </div>
-          <div className="flex justify-center">
-            <button className="px-8 py-4 rounded-lg bg-[#A8B89C] text-white font-medium hover:opacity-90 transition-opacity">
+          <div className="flex justify-center pt-4">
+            <button
+              type="button"
+              className="px-8 py-4 rounded-lg bg-[#A8B89C] text-white font-medium hover:opacity-90 transition-opacity"
+            >
               Zero risk. Zero friction.
             </button>
           </div>
@@ -467,15 +470,17 @@ export default function Index() {
             Reserve My First Jar of Chewpies.
           </h2>
 
-          <form className="space-y-6 mb-8">
+          <form className="space-y-6 mb-8" onSubmit={(e) => e.preventDefault()}>
             <input
               type="text"
               placeholder="Your name"
+              required
               className="w-full px-6 py-4 border border-[#E8C4B8] rounded-lg bg-white text-[#2C2C2C] placeholder:text-[#999999] focus:outline-none focus:border-[#A8B89C] transition-colors"
             />
             <input
               type="email"
               placeholder="Your email address"
+              required
               className="w-full px-6 py-4 border border-[#E8C4B8] rounded-lg bg-white text-[#2C2C2C] placeholder:text-[#999999] focus:outline-none focus:border-[#A8B89C] transition-colors"
             />
             <button
