@@ -1,8 +1,8 @@
 export default function Index() {
   return (
-    <div className="w-full bg-[#FAFAF8]">
+    <div className="w-full bg-white">
       {/* Hero Section */}
-      <section className="min-h-screen flex items-center justify-center px-6 sm:px-8 lg:px-12 pt-12 bg-[#FAFAF8]">
+      <section className="min-h-screen flex items-center justify-center px-6 sm:px-8 lg:px-12 pt-12 bg-white">
         <div className="max-w-4xl w-full">
           <h1 className="text-4xl sm:text-5xl lg:text-6xl font-serif font-medium mb-8 text-[#2C2C2C] leading-tight">
             Why jumping off your couch may be quietly damaging your small dog's joints years before you notice.
@@ -35,7 +35,7 @@ export default function Index() {
       <div className="h-px bg-gradient-to-r from-transparent via-[#E8C4B8] to-transparent mx-12"></div>
 
       {/* Educational Section */}
-      <section className="py-20 sm:py-28 lg:py-32 px-6 sm:px-8 lg:px-12 bg-[#FAFAF8]">
+      <section className="py-20 sm:py-28 lg:py-32 px-6 sm:px-8 lg:px-12 bg-white">
         <div className="max-w-7xl mx-auto">
           <h2 className="text-3xl sm:text-4xl lg:text-5xl font-serif font-medium mb-12 text-[#2C2C2C] leading-tight">
             The silent impact. Why your couch may be your small dog's biggest daily threat.
@@ -61,7 +61,7 @@ export default function Index() {
       <div className="h-px bg-gradient-to-r from-transparent via-[#E8C4B8] to-transparent mx-12"></div>
 
       {/* Founder's Note Section */}
-      <section className="py-20 sm:py-28 lg:py-32 px-6 sm:px-8 lg:px-12 bg-[#FAFAF8]">
+      <section className="py-20 sm:py-28 lg:py-32 px-6 sm:px-8 lg:px-12 bg-white">
         <div className="max-w-5xl mx-auto">
           <h2 className="text-3xl sm:text-4xl lg:text-5xl font-serif font-medium mb-12 text-[#2C2C2C] leading-tight">
             A note from our founders. Dog dad Dean and Chewpie the Chihuahua.
@@ -110,26 +110,26 @@ export default function Index() {
             <div className="pt-8 flex justify-center gap-6">
               <div className="space-y-3">
                 <div className="rounded-lg overflow-hidden">
-                  <img
-                    src="https://cdn.builder.io/api/v1/image/assets%2Fc70e54e2e4db4a77ba2ec462c6022187%2Fc828c90c535e4b79a0c894b9a5cad79e?format=webp&width=800&height=1200"
-                    alt="Dean and Chewpie in the sun"
-                    className="w-80 h-auto"
-                    style={{ maxWidth: "300px" }}
-                  />
-                </div>
+                <img
+                  src="https://cdn.builder.io/api/v1/image/assets%2Fc70e54e2e4db4a77ba2ec462c6022187%2Fc828c90c535e4b79a0c894b9a5cad79e?format=webp&width=800&height=1200"
+                  alt="Dean and Chewpie in the sun"
+                  className="w-80 h-auto bg-white"
+                  style={{ maxWidth: "300px" }}
+                />
+              </div>
                 <p className="font-sans text-sm text-[#A8B89C] text-center italic">
                   Chewpie getting her morning sun
                 </p>
               </div>
               <div className="space-y-3">
                 <div className="rounded-lg overflow-hidden">
-                  <img
-                    src="https://cdn.builder.io/api/v1/image/assets%2Fc70e54e2e4db4a77ba2ec462c6022187%2F3ccd499b69b24a6abd03f9f724da7239?format=webp&width=800&height=1200"
-                    alt="Dean on the bike with Chewpie"
-                    className="w-80 h-auto"
-                    style={{ maxWidth: "300px" }}
-                  />
-                </div>
+                <img
+                  src="https://cdn.builder.io/api/v1/image/assets%2Fc70e54e2e4db4a77ba2ec462c6022187%2F3ccd499b69b24a6abd03f9f724da7239?format=webp&width=800&height=1200"
+                  alt="Dean on the bike with Chewpie"
+                  className="w-80 h-auto bg-white"
+                  style={{ maxWidth: "300px" }}
+                />
+              </div>
                 <p className="font-sans text-sm text-[#A8B89C] text-center italic">
                   Chewpie on a day out on the Brisbane River
                 </p>
@@ -143,7 +143,7 @@ export default function Index() {
       <div className="h-px bg-gradient-to-r from-transparent via-[#E8C4B8] to-transparent mx-12"></div>
 
       {/* Social Proof Section */}
-      <section className="py-20 sm:py-28 lg:py-32 px-6 sm:px-8 lg:px-12 bg-[#FAFAF8]">
+      <section className="py-20 sm:py-28 lg:py-32 px-6 sm:px-8 lg:px-12 bg-white">
         <div className="max-w-7xl mx-auto">
           <h2 className="text-3xl sm:text-4xl lg:text-5xl font-serif font-medium mb-12 text-[#2C2C2C]">
             What small dog owners are saying.
@@ -214,7 +214,7 @@ export default function Index() {
       <div className="h-px bg-gradient-to-r from-transparent via-[#E8C4B8] to-transparent mx-12"></div>
 
       {/* Product Section */}
-      <section className="py-20 sm:py-28 lg:py-32 px-6 sm:px-8 lg:px-12 bg-[#FAFAF8]">
+      <section className="py-20 sm:py-28 lg:py-32 px-6 sm:px-8 lg:px-12 bg-white">
         <div className="max-w-5xl mx-auto">
           <h2 className="text-3xl sm:text-4xl lg:text-5xl font-serif font-medium text-center mb-16 text-[#2C2C2C] leading-tight">
             Introducing Chewpies Chewables. Built exclusively for Chihuahuas, Yorkies, Pomeranians, Dachshunds, French Bulldogs, Shih Tzus, and toy breeds under 10kg.
@@ -328,7 +328,7 @@ export default function Index() {
       <div className="h-px bg-gradient-to-r from-transparent via-[#E8C4B8] to-transparent mx-12"></div>
 
       {/* Trust Badges Section */}
-      <section className="py-20 sm:py-28 lg:py-32 px-6 sm:px-8 lg:px-12 bg-[#FAFAF8]">
+      <section className="py-20 sm:py-28 lg:py-32 px-6 sm:px-8 lg:px-12 bg-white">
         <div className="max-w-6xl mx-auto">
           <h2 className="text-3xl sm:text-4xl lg:text-5xl font-serif font-medium text-center mb-12 text-[#2C2C2C]">
             Built for small dogs. Finally.
@@ -396,7 +396,7 @@ export default function Index() {
       <div className="h-px bg-gradient-to-r from-transparent via-[#E8C4B8] to-transparent mx-12"></div>
 
       {/* Guarantee Section */}
-      <section className="py-20 sm:py-28 lg:py-32 px-6 sm:px-8 lg:px-12 bg-[#FAFAF8]">
+      <section className="py-20 sm:py-28 lg:py-32 px-6 sm:px-8 lg:px-12 bg-white">
         <div className="max-w-3xl mx-auto text-center">
           <h2 className="text-3xl sm:text-4xl lg:text-5xl font-serif font-bold mb-8 text-[#2C2C2C]">
             The Empty Jar, Happy Dog 90-Day Double Guarantee.
@@ -422,7 +422,7 @@ export default function Index() {
       <div className="h-px bg-gradient-to-r from-transparent via-[#E8C4B8] to-transparent mx-12"></div>
 
       {/* Final Opt-in Section */}
-      <section className="py-20 sm:py-28 lg:py-32 px-6 sm:px-8 lg:px-12 bg-[#FAFAF8]">
+      <section className="py-20 sm:py-28 lg:py-32 px-6 sm:px-8 lg:px-12 bg-white">
         <div className="max-w-3xl mx-auto">
           <div className="mb-12 text-center">
             <p className="text-base sm:text-lg text-[#666666] leading-relaxed mb-6">
@@ -463,7 +463,7 @@ export default function Index() {
       </section>
 
       {/* Closing Section */}
-      <section className="py-20 sm:py-28 lg:py-32 px-6 sm:px-8 lg:px-12 bg-[#FAFAF8]">
+      <section className="py-20 sm:py-28 lg:py-32 px-6 sm:px-8 lg:px-12 bg-white">
         <div className="max-w-3xl mx-auto text-center space-y-6">
           <p className="text-base sm:text-lg text-[#666666] leading-relaxed">
             Your small dog was never built for a human-sized world. You noticed the signs. Now you can do something about it.
