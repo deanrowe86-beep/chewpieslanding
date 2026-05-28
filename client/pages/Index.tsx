@@ -4,7 +4,7 @@ export default function Index() {
       {/* Hero Section */}
       <section className="min-h-screen flex items-center justify-center px-6 sm:px-8 lg:px-12 pt-12 bg-[#FAFAF8]">
         <div className="max-w-4xl w-full">
-          <h1 className="text-4xl sm:text-5xl lg:text-6xl font-serif font-bold mb-8 text-[#2C2C2C] leading-tight">
+          <h1 className="text-4xl sm:text-5xl lg:text-6xl font-serif font-medium mb-8 text-[#2C2C2C] leading-tight">
             Why jumping off your couch may be quietly damaging your small dog's joints years before you notice.
           </h1>
           <p className="text-lg sm:text-xl text-[#666666] mb-12 leading-relaxed">
@@ -27,7 +27,7 @@ export default function Index() {
       {/* Educational Section */}
       <section className="py-20 sm:py-28 lg:py-32 px-6 sm:px-8 lg:px-12 bg-[#FAFAF8]">
         <div className="max-w-7xl mx-auto">
-          <h2 className="text-3xl sm:text-4xl lg:text-5xl font-serif font-bold mb-12 text-[#2C2C2C] leading-tight">
+          <h2 className="text-3xl sm:text-4xl lg:text-5xl font-serif font-medium mb-12 text-[#2C2C2C] leading-tight">
             The silent impact. Why your couch may be your small dog's biggest daily threat.
           </h2>
           <div className="grid grid-cols-1 lg:grid-cols-3 gap-8 lg:gap-16">
@@ -53,7 +53,7 @@ export default function Index() {
       {/* Founder's Note Section */}
       <section className="py-20 sm:py-28 lg:py-32 px-6 sm:px-8 lg:px-12 bg-[#FAFAF8]">
         <div className="max-w-5xl mx-auto">
-          <h2 className="text-3xl sm:text-4xl lg:text-5xl font-serif font-bold mb-12 text-[#2C2C2C] leading-tight">
+          <h2 className="text-3xl sm:text-4xl lg:text-5xl font-serif font-medium mb-12 text-[#2C2C2C] leading-tight">
             A note from our founders. Dog dad Dean and Chewpie the Chihuahua.
           </h2>
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
@@ -177,7 +177,7 @@ export default function Index() {
       {/* Product Section */}
       <section className="py-20 sm:py-28 lg:py-32 px-6 sm:px-8 lg:px-12 bg-[#FAFAF8]">
         <div className="max-w-5xl mx-auto">
-          <h2 className="text-3xl sm:text-4xl lg:text-5xl font-serif font-bold text-center mb-16 text-[#2C2C2C] leading-tight">
+          <h2 className="text-3xl sm:text-4xl lg:text-5xl font-serif font-medium text-center mb-16 text-[#2C2C2C] leading-tight">
             Introducing Chewpies Chewables. Built exclusively for Chihuahuas, Yorkies, Pomeranians, Dachshunds, French Bulldogs, Shih Tzus, and toy breeds under 10kg.
           </h2>
 
@@ -286,7 +286,7 @@ export default function Index() {
       {/* Trust Badges Section */}
       <section className="py-20 sm:py-28 lg:py-32 px-6 sm:px-8 lg:px-12 bg-[#FAFAF8]">
         <div className="max-w-6xl mx-auto">
-          <h2 className="text-3xl sm:text-4xl lg:text-5xl font-serif font-bold text-center mb-12 text-[#2C2C2C]">
+          <h2 className="text-3xl sm:text-4xl lg:text-5xl font-serif font-medium text-center mb-12 text-[#2C2C2C]">
             Built for small dogs. Finally.
           </h2>
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
@@ -389,7 +389,7 @@ export default function Index() {
             </p>
           </div>
 
-          <h2 className="text-3xl sm:text-4xl lg:text-5xl font-serif font-bold text-center mb-12 text-[#2C2C2C]">
+          <h2 className="text-3xl sm:text-4xl lg:text-5xl font-serif font-medium text-center mb-12 text-[#2C2C2C]">
             Reserve My First Jar of Chewpies.
           </h2>
 
@@ -427,7 +427,7 @@ export default function Index() {
           <p className="text-base sm:text-lg text-[#666666] leading-relaxed">
             Reserve your jar. Give your tiny dog the protection they have always deserved.
           </p>
-          <p className="text-lg sm:text-xl font-serif font-medium text-[#2C2C2C] pt-4">
+          <p className="text-lg sm:text-xl font-serif font-normal text-[#2C2C2C] pt-4">
             Built for small dogs. Finally.
           </p>
         </div>
