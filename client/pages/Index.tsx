@@ -97,22 +97,22 @@ export default function Index() {
             </div>
 
             {/* Photos Section */}
-            <div className="pt-8 mx-auto max-w-xl">
-              <div className="grid grid-cols-2 gap-6">
-                <div className="rounded-lg overflow-hidden aspect-[4/5]">
-                  <img
-                    src="https://cdn.builder.io/api/v1/image/assets%2Fc70e54e2e4db4a77ba2ec462c6022187%2Fc828c90c535e4b79a0c894b9a5cad79e?format=webp&width=800&height=1200"
-                    alt="Dean and Chewpie in the sun"
-                    className="w-full h-full object-cover object-center"
-                  />
-                </div>
-                <div className="rounded-lg overflow-hidden aspect-[4/5]">
-                  <img
-                    src="https://cdn.builder.io/api/v1/image/assets%2Fc70e54e2e4db4a77ba2ec462c6022187%2F3ccd499b69b24a6abd03f9f724da7239?format=webp&width=800&height=1200"
-                    alt="Dean on the bike with Chewpie"
-                    className="w-full h-full object-cover object-center"
-                  />
-                </div>
+            <div className="pt-8 flex justify-center gap-6">
+              <div className="rounded-lg overflow-hidden">
+                <img
+                  src="https://cdn.builder.io/api/v1/image/assets%2Fc70e54e2e4db4a77ba2ec462c6022187%2Fc828c90c535e4b79a0c894b9a5cad79e?format=webp&width=800&height=1200"
+                  alt="Dean and Chewpie in the sun"
+                  className="w-80 h-auto"
+                  style={{ maxWidth: "300px" }}
+                />
+              </div>
+              <div className="rounded-lg overflow-hidden">
+                <img
+                  src="https://cdn.builder.io/api/v1/image/assets%2Fc70e54e2e4db4a77ba2ec462c6022187%2F3ccd499b69b24a6abd03f9f724da7239?format=webp&width=800&height=1200"
+                  alt="Dean on the bike with Chewpie"
+                  className="w-80 h-auto"
+                  style={{ maxWidth: "300px" }}
+                />
               </div>
             </div>
           </div>
