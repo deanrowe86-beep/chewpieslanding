@@ -58,23 +58,29 @@ export default function Index() {
           </h2>
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
             <div className="space-y-6">
-              <p className="text-base sm:text-lg font-serif-garamond text-[#666666] leading-relaxed italic">
-                I am forty years old. Every morning I take fish oil and bone broth. Not because something is wrong. Because I know what happens when you wait until it is.
+              <p className="text-base sm:text-lg text-[#666666] leading-relaxed">
+                I have a seven-pound Chihuahua named Chewpie.
               </p>
               <p className="text-base sm:text-lg text-[#666666] leading-relaxed">
-                I have a six-pound Chihuahua named Chewpie. One morning I noticed her hesitating at the foot of the bed. That tiny pause before a jump she used to make without thinking.
+                She follows me from room to room. She has claimed the left side of the couch as permanently hers. Her entire world is built around keeping up with me.
               </p>
               <p className="text-base sm:text-lg text-[#666666] leading-relaxed">
-                I started researching. What I found disturbed me. The daily impact on her tiny joints. The way small dogs mask discomfort until damage is advanced. The fact that nothing on the market was actually built for a dog her size.
+                One morning she stood at the foot of the bed and paused. Just for a second. A hesitation so small most people would miss it.
               </p>
               <p className="text-base sm:text-lg text-[#666666] leading-relaxed">
-                She deserves the same standard of daily care I give myself.
+                I did not miss it.
               </p>
               <p className="text-base sm:text-lg text-[#666666] leading-relaxed">
-                So we built it. Chewpies is not a rescue product. It is a daily ritual. Preventative care, precision-dosed for small dogs, before things get serious.
+                I started researching. What I found disturbed me. The daily impact forces on her tiny joints from nothing more than jumping off the couch. The way small dogs are wired to mask discomfort long before any visible sign appears. The fact that every supplement on the market was built around a forty pound dog and simply relabelled for small breeds.
               </p>
               <p className="text-base sm:text-lg text-[#666666] leading-relaxed">
-                Our mission is simple. Build a brand that gives back. To the small dogs who give us everything.
+                She gives me everything. The least I could do was give her something built specifically for her.
+              </p>
+              <p className="text-base sm:text-lg text-[#666666] leading-relaxed">
+                So we built Chewpies. Preventative daily care, precision-dosed for small dogs, before things get serious.
+              </p>
+              <p className="text-base sm:text-lg text-[#666666] leading-relaxed">
+                Our mission is simple. Give back to the small dogs who give us everything.
               </p>
               <div className="pt-4 border-t border-[#E8C4B8]">
                 <p className="text-sm sm:text-base font-medium text-[#2C2C2C] pt-4">
@@ -106,7 +112,7 @@ export default function Index() {
       {/* Social Proof Section */}
       <section className="py-20 sm:py-28 lg:py-32 px-6 sm:px-8 lg:px-12 bg-[#FAFAF8]">
         <div className="max-w-7xl mx-auto">
-          <h2 className="text-3xl sm:text-4xl lg:text-5xl font-serif font-bold mb-12 text-[#2C2C2C]">
+          <h2 className="text-3xl sm:text-4xl lg:text-5xl font-serif font-medium mb-12 text-[#2C2C2C]">
             What small dog owners are saying.
           </h2>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
