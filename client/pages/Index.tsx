@@ -56,8 +56,9 @@ export default function Index() {
           <h2 className="text-3xl sm:text-4xl lg:text-5xl font-serif font-medium mb-12 text-[#2C2C2C] leading-tight">
             A note from our founders. Dog dad Dean and Chewpie the Chihuahua.
           </h2>
-          <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
-            <div className="space-y-6">
+          <div className="space-y-12">
+            {/* Text Content */}
+            <div className="space-y-6 max-w-3xl">
               <p className="text-base sm:text-lg text-[#666666] leading-relaxed">
                 I have a seven-pound Chihuahua named Chewpie.
               </p>
@@ -94,12 +95,14 @@ export default function Index() {
                 </p>
               </div>
             </div>
-            <div className="space-y-6">
-              <div className="aspect-square rounded-lg border border-[#E8C4B8] bg-[#FAFAF8] flex items-center justify-center">
-                <p className="text-[#999999] text-center text-sm">Photo 1<br/>Dean and Chewpie in the sun</p>
+
+            {/* Photos Section */}
+            <div className="pt-8 grid grid-cols-1 md:grid-cols-2 gap-8">
+              <div className="aspect-video rounded-lg bg-[#FAFAF8] flex items-center justify-center">
+                <p className="text-[#999999] text-center text-sm">Dean and Chewpie in the sun</p>
               </div>
-              <div className="aspect-square rounded-lg border border-[#E8C4B8] bg-[#FAFAF8] flex items-center justify-center">
-                <p className="text-[#999999] text-center text-sm">Photo 2<br/>Dean on the bike with Chewpie</p>
+              <div className="aspect-video rounded-lg bg-[#FAFAF8] flex items-center justify-center">
+                <p className="text-[#999999] text-center text-sm">Dean on the bike with Chewpie</p>
               </div>
             </div>
           </div>
