@@ -9,11 +9,12 @@ export default function Index() {
           </h1>
 
           {/* Hero Dogs Image */}
-          <div className="mb-12 flex justify-center">
+          <div className="mb-16 flex justify-center">
             <img
-              src="https://cdn.builder.io/api/v1/image/assets%2Fc70e54e2e4db4a77ba2ec462c6022187%2Fa1f3a204abcc4a5585f143a6e7a1d3a3?format=webp&width=800&height=1200"
+              src="https://cdn.builder.io/api/v1/image/assets%2Fc70e54e2e4db4a77ba2ec462c6022187%2Faa1116df7e944d43bd271198b3603488?format=webp&width=800&height=1200"
               alt="Five small dog breeds"
-              className="w-full max-h-96 h-auto object-contain"
+              className="w-full max-h-screen h-auto object-contain"
+              style={{ maxHeight: "450px" }}
             />
           </div>
 
@@ -234,15 +235,13 @@ export default function Index() {
           </div>
 
           {/* Product Image */}
-          <div className="mb-16 flex justify-center">
-            <div className="max-w-xs">
-              <img
-                src="https://cdn.builder.io/api/v1/image/assets%2Fc70e54e2e4db4a77ba2ec462c6022187%2F27d9ae06752a44ae863db0d76da9b470?format=webp&width=800&height=1200"
-                alt="Chewpies Chewables jar"
-                className="w-full max-w-sm h-auto object-contain"
-                style={{ maxWidth: "350px" }}
-              />
-            </div>
+          <div className="my-16 flex justify-center">
+            <img
+              src="https://cdn.builder.io/api/v1/image/assets%2Fc70e54e2e4db4a77ba2ec462c6022187%2F1c52e8f2303046989e22c3f2b3a04072?format=webp&width=800&height=1200"
+              alt="Chewpies Chewables jar"
+              className="h-auto object-contain"
+              style={{ maxWidth: "350px" }}
+            />
           </div>
 
           {/* Ingredient Callouts */}
