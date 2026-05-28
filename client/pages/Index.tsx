@@ -98,21 +98,31 @@ export default function Index() {
 
             {/* Photos Section */}
             <div className="pt-8 flex justify-center gap-6">
-              <div className="rounded-lg overflow-hidden">
-                <img
-                  src="https://cdn.builder.io/api/v1/image/assets%2Fc70e54e2e4db4a77ba2ec462c6022187%2Fc828c90c535e4b79a0c894b9a5cad79e?format=webp&width=800&height=1200"
-                  alt="Dean and Chewpie in the sun"
-                  className="w-80 h-auto"
-                  style={{ maxWidth: "300px" }}
-                />
+              <div className="space-y-3">
+                <div className="rounded-lg overflow-hidden">
+                  <img
+                    src="https://cdn.builder.io/api/v1/image/assets%2Fc70e54e2e4db4a77ba2ec462c6022187%2Fc828c90c535e4b79a0c894b9a5cad79e?format=webp&width=800&height=1200"
+                    alt="Dean and Chewpie in the sun"
+                    className="w-80 h-auto"
+                    style={{ maxWidth: "300px" }}
+                  />
+                </div>
+                <p className="font-sans text-sm text-[#A8B89C] text-center italic">
+                  Chewpie getting her morning sun
+                </p>
               </div>
-              <div className="rounded-lg overflow-hidden">
-                <img
-                  src="https://cdn.builder.io/api/v1/image/assets%2Fc70e54e2e4db4a77ba2ec462c6022187%2F3ccd499b69b24a6abd03f9f724da7239?format=webp&width=800&height=1200"
-                  alt="Dean on the bike with Chewpie"
-                  className="w-80 h-auto"
-                  style={{ maxWidth: "300px" }}
-                />
+              <div className="space-y-3">
+                <div className="rounded-lg overflow-hidden">
+                  <img
+                    src="https://cdn.builder.io/api/v1/image/assets%2Fc70e54e2e4db4a77ba2ec462c6022187%2F3ccd499b69b24a6abd03f9f724da7239?format=webp&width=800&height=1200"
+                    alt="Dean on the bike with Chewpie"
+                    className="w-80 h-auto"
+                    style={{ maxWidth: "300px" }}
+                  />
+                </div>
+                <p className="font-sans text-sm text-[#A8B89C] text-center italic">
+                  Chewpie on a day out on the Brisbane River
+                </p>
               </div>
             </div>
           </div>
