@@ -3,8 +3,8 @@ export default function Index() {
     <div className="w-full bg-white">
       {/* Hero Section */}
       <section className="min-h-screen flex items-center justify-center px-6 sm:px-8 lg:px-12 pt-12 bg-white">
-        <div className="max-w-4xl w-full">
-          <h1 className="text-4xl sm:text-5xl lg:text-6xl font-serif font-medium mb-8 text-[#2C2C2C] leading-tight">
+        <div className="max-w-3xl w-full text-center">
+          <h1 className="text-4xl sm:text-5xl lg:text-6xl font-serif font-medium mb-12 text-[#2C2C2C] leading-tight">
             Why jumping off your couch may be quietly damaging your small dog's joints years before you notice.
           </h1>
 
@@ -18,13 +18,16 @@ export default function Index() {
             />
           </div>
 
-          <p className="text-lg sm:text-xl text-[#666666] mb-12 leading-relaxed">
-            Most small dog owners only discover hidden joint stress after visible limping has already begun. By then, the damage is further along than anyone realised.
-          </p>
-          <div className="space-y-6 text-base sm:text-lg text-[#666666] leading-relaxed mb-12 max-w-3xl">
-            <p>She still follows you from room to room. A loyal little shadow whose entire world is keeping up with your footsteps. But lately you have noticed the briefest pause at the foot of the bed. A quiet hesitation before the stairs. A soft whimper when she looks up at the sofa.</p>
-            <p>You tell yourself she is just getting older.</p>
-            <p>But deep down, you know something is not right. She depends on you for everything. And she cannot tell you when she is hurting.</p>
+          <div className="space-y-6 text-base sm:text-lg text-[#666666] leading-relaxed mb-12">
+            <p>Most small dog owners only discover hidden joint stress after visible limping has already begun.
+            <br />
+            By then, the damage is further along than anyone realised.</p>
+            <p>She still follows you from room to room. A loyal little shadow whose entire world is keeping up with your footsteps.
+            <br />
+            But lately you have noticed the briefest pause at the foot of the bed. A quiet hesitation before the stairs. A soft whimper when she looks up at the sofa.</p>
+            <p>You tell yourself she is just getting older.
+            <br />
+            But deep down, you know something is not right. She depends on you for everything. And she cannot tell you when she is hurting.</p>
           </div>
           <button className="px-8 sm:px-12 py-3 sm:py-4 bg-[#A8B89C] text-white font-medium rounded-lg hover:opacity-90 transition-opacity">
             Reserve My Jar Now
@@ -37,23 +40,26 @@ export default function Index() {
 
       {/* Educational Section */}
       <section className="py-20 sm:py-28 lg:py-32 px-6 sm:px-8 lg:px-12 bg-white">
-        <div className="max-w-7xl mx-auto">
+        <div className="max-w-3xl mx-auto text-center">
           <h2 className="text-3xl sm:text-4xl lg:text-5xl font-serif font-medium mb-12 text-[#2C2C2C] leading-tight">
-            The silent impact. Why your couch may be your small dog's biggest daily threat.
+            The Silent Impact.
+            <br />
+            Why Your Couch May Be Your Small Dog's Biggest Daily Threat.
           </h2>
-          <div className="grid grid-cols-1 lg:grid-cols-3 gap-8 lg:gap-16">
-            <div className="lg:col-span-1"></div>
-            <div className="lg:col-span-2 space-y-6">
-              <p className="text-base sm:text-lg text-[#666666] leading-relaxed">
-                To a small dog under ten kilograms, jumping off a standard sofa is the biomechanical equivalent of a human leaping from a first-storey roof. Multiple times. Every single day.
-              </p>
-              <p className="text-base sm:text-lg text-[#666666] leading-relaxed">
-                Toy breeds also carry an instinct to mask pain long before any visible sign appears. By the time limping, stiffness, or reluctance to jump becomes obvious, the damage to tiny joints is often already advanced.
-              </p>
-              <p className="text-base sm:text-lg text-[#666666] leading-relaxed">
-                And most joint supplements make it worse. Products built for forty pound dogs, relabelled for small breeds, overwhelm sensitive digestion with oversized dosages and harsh fillers. The dog refuses to eat them. Or gets sick. The owner gives up. And the joint stress continues unaddressed for months or years longer.
-              </p>
-            </div>
+          <div className="space-y-6">
+            <p className="text-base sm:text-lg text-[#666666] leading-relaxed">
+              To a small dog under ten kilograms, jumping off a standard sofa is the biomechanical equivalent of a human leaping from a first-storey roof.
+              <br />
+              Multiple times. Every single day.
+            </p>
+            <p className="text-base sm:text-lg text-[#666666] leading-relaxed">
+              Toy breeds also carry an instinct to mask pain long before any visible sign appears. By the time limping, stiffness, or reluctance to jump becomes obvious, the damage to tiny joints is often already advanced.
+            </p>
+            <p className="text-base sm:text-lg text-[#666666] leading-relaxed">
+              And most joint supplements make it worse. Products built for forty pound dogs, relabelled for small breeds, overwhelm sensitive digestion with oversized dosages and harsh fillers.
+              <br />
+              The dog refuses to eat them. Or gets sick. The owner gives up. And the joint stress continues unaddressed for months or years longer.
+            </p>
           </div>
         </div>
       </section>
@@ -63,27 +69,35 @@ export default function Index() {
 
       {/* Founder's Note Section */}
       <section className="py-20 sm:py-28 lg:py-32 px-6 sm:px-8 lg:px-12 bg-white">
-        <div className="max-w-5xl mx-auto">
+        <div className="max-w-3xl mx-auto text-center">
           <h2 className="text-3xl sm:text-4xl lg:text-5xl font-serif font-medium mb-12 text-[#2C2C2C] leading-tight">
-            A note from our founders. Dog dad Dean and Chewpie the Chihuahua.
+            A note from our founders.
+            <br />
+            Dog dad Dean and Chewpie the Chihuahua.
           </h2>
           <div className="space-y-12">
             {/* Text Content */}
-            <div className="space-y-6 max-w-3xl">
+            <div className="space-y-6">
               <p className="text-base sm:text-lg text-[#666666] leading-relaxed">
                 I have a seven-pound Chihuahua named Chewpie.
               </p>
               <p className="text-base sm:text-lg text-[#666666] leading-relaxed">
-                She follows me from room to room. She has claimed the left side of the couch as permanently hers. Her entire world is built around keeping up with me.
+                She follows me from room to room. She has claimed the left side of the couch as permanently hers.
+                <br />
+                Her entire world is built around keeping up with me.
               </p>
               <p className="text-base sm:text-lg text-[#666666] leading-relaxed">
-                One morning she stood at the foot of the bed and paused. Just for a second. A hesitation so small most people would miss it.
+                One morning she stood at the foot of the bed and paused. Just for a second.
+                <br />
+                A hesitation so small most people would miss it.
               </p>
               <p className="text-base sm:text-lg text-[#666666] leading-relaxed">
                 I did not miss it.
               </p>
               <p className="text-base sm:text-lg text-[#666666] leading-relaxed">
-                I started researching. What I found disturbed me. The daily impact forces on her tiny joints from nothing more than jumping off the couch. The way small dogs are wired to mask discomfort long before any visible sign appears. The fact that every supplement on the market was built around a forty pound dog and simply relabelled for small breeds.
+                I started researching. What I found disturbed me. The daily impact forces on her tiny joints from nothing more than jumping off the couch.
+                <br />
+                The way small dogs are wired to mask discomfort long before any visible sign appears. The fact that every supplement on the market was built around a forty pound dog and simply relabelled for small breeds.
               </p>
               <p className="text-base sm:text-lg text-[#666666] leading-relaxed">
                 She gives me everything. The least I could do was give her something built specifically for her.
@@ -145,10 +159,13 @@ export default function Index() {
 
       {/* Social Proof Section */}
       <section className="py-20 sm:py-28 lg:py-32 px-6 sm:px-8 lg:px-12 bg-white">
-        <div className="max-w-7xl mx-auto">
-          <h2 className="text-3xl sm:text-4xl lg:text-5xl font-serif font-medium mb-12 text-[#2C2C2C]">
+        <div className="max-w-5xl mx-auto text-center">
+          <h2 className="text-3xl sm:text-4xl lg:text-5xl font-serif font-medium mb-6 text-[#2C2C2C]">
             What small dog owners are saying.
           </h2>
+          <p className="text-sm text-[#A8B89C] italic mb-12">
+            Based on independent product testing conducted with small dog owners in our local community prior to launch.
+          </p>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             <div className="space-y-4">
               <div className="flex gap-1">
@@ -216,21 +233,29 @@ export default function Index() {
 
       {/* Product Section */}
       <section className="py-20 sm:py-28 lg:py-32 px-6 sm:px-8 lg:px-12 bg-white">
-        <div className="max-w-5xl mx-auto">
-          <h2 className="text-3xl sm:text-4xl lg:text-5xl font-serif font-medium text-center mb-16 text-[#2C2C2C] leading-tight">
-            Introducing Chewpies Chewables. Built exclusively for Chihuahuas, Yorkies, Pomeranians, Dachshunds, French Bulldogs, Shih Tzus, and toy breeds under 10kg.
+        <div className="max-w-3xl mx-auto text-center">
+          <h2 className="text-3xl sm:text-4xl lg:text-5xl font-serif font-medium mb-12 text-[#2C2C2C] leading-tight">
+            Introducing Chewpies Chewables.
+            <br />
+            Built exclusively for Chihuahuas, Yorkies, Pomeranians, Dachshunds, French Bulldogs, Shih Tzus, and toy breeds under 10kg.
           </h2>
 
           {/* Product Introduction Copy */}
-          <div className="mb-16 max-w-3xl mx-auto space-y-6">
+          <div className="mb-16 space-y-6">
             <p className="text-base sm:text-lg text-[#666666] leading-relaxed">
-              Not a large dog formula cut into smaller pieces. Built from the ground up for small dogs. The ones whose joints are quietly working harder than any owner realises.
+              Not a large dog formula cut into smaller pieces. Built from the ground up for small dogs.
+              <br />
+              The ones whose joints are quietly working harder than any owner realises.
             </p>
             <p className="text-base sm:text-lg text-[#666666] leading-relaxed">
-              If your dog has refused every supplement you have tried, it is almost certainly the smell. Chewpies uses a natural savoury flavour with zero marine shellfish odour. Dogs treat it like a reward. Not a supplement.
+              If your dog has refused every supplement you have tried, it is almost certainly the smell. Chewpies uses a natural savoury flavour with zero marine shellfish odour.
+              <br />
+              Dogs treat it like a reward. Not a supplement.
             </p>
             <p className="text-base sm:text-lg text-[#666666] leading-relaxed">
-              If supplements have upset your dog's stomach before, it is because tiny digestive systems were never designed for large breed dosages. Every Chewpies chew is precision-dosed for dogs under 10kg. No harsh fillers. No digestive overload.
+              If supplements have upset your dog's stomach before, it is because tiny digestive systems were never designed for large breed dosages.
+              <br />
+              Every Chewpies chew is precision-dosed for dogs under 10kg. No harsh fillers. No digestive overload.
             </p>
           </div>
 
@@ -240,14 +265,14 @@ export default function Index() {
               src="https://cdn.builder.io/api/v1/image/assets%2Fc70e54e2e4db4a77ba2ec462c6022187%2F1c52e8f2303046989e22c3f2b3a04072?format=webp&width=800&height=1200"
               alt="Chewpies Chewables jar"
               className="h-auto object-contain"
-              style={{ maxWidth: "350px" }}
+              style={{ maxWidth: "490px" }}
             />
           </div>
 
           {/* Ingredient Callouts */}
-          <div className="grid grid-cols-1 sm:grid-cols-2 gap-8 lg:gap-12">
+          <div className="grid grid-cols-1 sm:grid-cols-2 gap-8 lg:gap-12 max-w-2xl mx-auto">
             <div className="flex gap-4">
-              <div className="w-12 h-12 rounded-full border border-[#A8B89C] flex-shrink-0 flex items-center justify-center bg-[#FAFAF8]">
+              <div className="w-12 h-12 rounded-full border border-[#A8B89C] flex-shrink-0 flex items-center justify-center bg-white">
                 <span className="text-[#A8B89C] text-sm font-medium">1</span>
               </div>
               <div>
@@ -328,13 +353,13 @@ export default function Index() {
 
       {/* Trust Badges Section */}
       <section className="py-20 sm:py-28 lg:py-32 px-6 sm:px-8 lg:px-12 bg-white">
-        <div className="max-w-6xl mx-auto">
-          <h2 className="text-3xl sm:text-4xl lg:text-5xl font-serif font-medium text-center mb-12 text-[#2C2C2C]">
+        <div className="max-w-3xl mx-auto text-center">
+          <h2 className="text-3xl sm:text-4xl lg:text-5xl font-serif font-medium mb-12 text-[#2C2C2C]">
             Built for small dogs. Finally.
           </h2>
-          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
+          <div className="grid grid-cols-1 sm:grid-cols-2 gap-8 max-w-2xl mx-auto">
             <div className="flex gap-4">
-              <div className="w-12 h-12 rounded-lg border border-[#A8B89C] flex-shrink-0 flex items-center justify-center bg-[#FAFAF8]">
+              <div className="w-12 h-12 rounded-lg border border-[#A8B89C] flex-shrink-0 flex items-center justify-center bg-white">
                 <p className="text-[#A8B89C] text-xs font-bold">✓</p>
               </div>
               <div>
@@ -343,7 +368,7 @@ export default function Index() {
               </div>
             </div>
             <div className="flex gap-4">
-              <div className="w-12 h-12 rounded-lg border border-[#A8B89C] flex-shrink-0 flex items-center justify-center bg-[#FAFAF8]">
+              <div className="w-12 h-12 rounded-lg border border-[#A8B89C] flex-shrink-0 flex items-center justify-center bg-white">
                 <p className="text-[#A8B89C] text-xs font-bold">✓</p>
               </div>
               <div>
@@ -352,7 +377,7 @@ export default function Index() {
               </div>
             </div>
             <div className="flex gap-4">
-              <div className="w-12 h-12 rounded-lg border border-[#A8B89C] flex-shrink-0 flex items-center justify-center bg-[#FAFAF8]">
+              <div className="w-12 h-12 rounded-lg border border-[#A8B89C] flex-shrink-0 flex items-center justify-center bg-white">
                 <p className="text-[#A8B89C] text-xs font-bold">✓</p>
               </div>
               <div>
@@ -361,7 +386,7 @@ export default function Index() {
               </div>
             </div>
             <div className="flex gap-4">
-              <div className="w-12 h-12 rounded-lg border border-[#A8B89C] flex-shrink-0 flex items-center justify-center bg-[#FAFAF8]">
+              <div className="w-12 h-12 rounded-lg border border-[#A8B89C] flex-shrink-0 flex items-center justify-center bg-white">
                 <p className="text-[#A8B89C] text-xs font-bold">✓</p>
               </div>
               <div>
@@ -370,7 +395,7 @@ export default function Index() {
               </div>
             </div>
             <div className="flex gap-4">
-              <div className="w-12 h-12 rounded-lg border border-[#A8B89C] flex-shrink-0 flex items-center justify-center bg-[#FAFAF8]">
+              <div className="w-12 h-12 rounded-lg border border-[#A8B89C] flex-shrink-0 flex items-center justify-center bg-white">
                 <p className="text-[#A8B89C] text-xs font-bold">✓</p>
               </div>
               <div>
@@ -379,7 +404,7 @@ export default function Index() {
               </div>
             </div>
             <div className="flex gap-4">
-              <div className="w-12 h-12 rounded-lg border border-[#A8B89C] flex-shrink-0 flex items-center justify-center bg-[#FAFAF8]">
+              <div className="w-12 h-12 rounded-lg border border-[#A8B89C] flex-shrink-0 flex items-center justify-center bg-white">
                 <p className="text-[#A8B89C] text-xs font-bold">✓</p>
               </div>
               <div>
@@ -397,22 +422,28 @@ export default function Index() {
       {/* Guarantee Section */}
       <section className="py-20 sm:py-28 lg:py-32 px-6 sm:px-8 lg:px-12 bg-white">
         <div className="max-w-3xl mx-auto text-center">
-          <h2 className="text-3xl sm:text-4xl lg:text-5xl font-serif font-bold mb-8 text-[#2C2C2C]">
+          <h2 className="text-3xl sm:text-4xl lg:text-5xl font-serif font-medium mb-8 text-[#2C2C2C]">
             The Empty Jar, Happy Dog 90-Day Double Guarantee.
           </h2>
-          <p className="text-base sm:text-lg text-[#666666] leading-relaxed mb-8">
-            We are so confident your small dog will love Chewpies that we back every single jar with the most generous guarantee in the category.
-          </p>
-          <p className="text-base sm:text-lg text-[#666666] leading-relaxed mb-8">
-            If your dog turns their nose up at the very first chew, we refund you immediately. No waiting ninety days. No needing to prove you used the product consistently. No return shipping required.
-          </p>
-          <p className="text-base sm:text-lg text-[#666666] leading-relaxed mb-12">
-            If at any point in the first ninety days your dog's sensitive stomach reacts, or if you simply do not see the improvement in mobility and comfort you were hoping for, send us the empty jar and we will refund 100% of your purchase price. Plus we will credit an additional $10 to your account for your trouble.
-          </p>
+          <div className="space-y-6 mb-12">
+            <p className="text-base sm:text-lg text-[#666666] leading-relaxed">
+              We are so confident your small dog will love Chewpies that we back every single jar with the most generous guarantee in the category.
+            </p>
+            <p className="text-base sm:text-lg text-[#666666] leading-relaxed">
+              If your dog turns their nose up at the very first chew, we refund you immediately. No waiting ninety days.
+              <br />
+              No needing to prove you used the product consistently. No return shipping required.
+            </p>
+            <p className="text-base sm:text-lg text-[#666666] leading-relaxed">
+              If at any point in the first ninety days your dog's sensitive stomach reacts, or if you simply do not see the improvement in mobility and comfort you were hoping for, send us the empty jar and we will refund 100% of your purchase price.
+              <br />
+              Plus we will credit an additional $10 to your account for your trouble.
+            </p>
+          </div>
           <div className="flex justify-center">
-            <div className="px-8 py-4 rounded-lg border border-[#E8C4B8] flex items-center justify-center bg-[#FAFAF8]">
-              <p className="text-sm sm:text-base text-[#2C2C2C] font-medium">Zero risk. Zero friction.</p>
-            </div>
+            <button className="px-8 py-4 rounded-lg bg-[#A8B89C] text-white font-medium hover:opacity-90 transition-opacity">
+              Zero risk. Zero friction.
+            </button>
           </div>
         </div>
       </section>
@@ -422,8 +453,8 @@ export default function Index() {
 
       {/* Final Opt-in Section */}
       <section className="py-20 sm:py-28 lg:py-32 px-6 sm:px-8 lg:px-12 bg-white">
-        <div className="max-w-3xl mx-auto">
-          <div className="mb-12 text-center">
+        <div className="max-w-3xl mx-auto text-center">
+          <div className="mb-12">
             <p className="text-base sm:text-lg text-[#666666] leading-relaxed mb-6">
               Chewpies is currently in pre-launch. We are accepting a limited number of founding customers for our first production batch.
             </p>
@@ -432,7 +463,7 @@ export default function Index() {
             </p>
           </div>
 
-          <h2 className="text-3xl sm:text-4xl lg:text-5xl font-serif font-medium text-center mb-12 text-[#2C2C2C]">
+          <h2 className="text-3xl sm:text-4xl lg:text-5xl font-serif font-medium mb-12 text-[#2C2C2C]">
             Reserve My First Jar of Chewpies.
           </h2>
 
@@ -440,12 +471,12 @@ export default function Index() {
             <input
               type="text"
               placeholder="Your name"
-              className="w-full px-6 py-4 border border-[#E8C4B8] rounded-lg bg-[#FAFAF8] text-[#2C2C2C] placeholder:text-[#999999] focus:outline-none focus:border-[#C4614A] transition-colors"
+              className="w-full px-6 py-4 border border-[#E8C4B8] rounded-lg bg-white text-[#2C2C2C] placeholder:text-[#999999] focus:outline-none focus:border-[#A8B89C] transition-colors"
             />
             <input
               type="email"
               placeholder="Your email address"
-              className="w-full px-6 py-4 border border-[#E8C4B8] rounded-lg bg-[#FAFAF8] text-[#2C2C2C] placeholder:text-[#999999] focus:outline-none focus:border-[#A8B89C] transition-colors"
+              className="w-full px-6 py-4 border border-[#E8C4B8] rounded-lg bg-white text-[#2C2C2C] placeholder:text-[#999999] focus:outline-none focus:border-[#A8B89C] transition-colors"
             />
             <button
               type="submit"
@@ -465,7 +496,9 @@ export default function Index() {
       <section className="py-20 sm:py-28 lg:py-32 px-6 sm:px-8 lg:px-12 bg-white">
         <div className="max-w-3xl mx-auto text-center space-y-6">
           <p className="text-base sm:text-lg text-[#666666] leading-relaxed">
-            Your small dog was never built for a human-sized world. You noticed the signs. Now you can do something about it.
+            Your small dog was never built for a human-sized world. You noticed the signs.
+            <br />
+            Now you can do something about it.
           </p>
           <p className="text-base sm:text-lg text-[#666666] leading-relaxed">
             Reserve your jar. Give your tiny dog the protection they have always deserved.
