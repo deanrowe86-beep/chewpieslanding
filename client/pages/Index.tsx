@@ -132,22 +132,7 @@ export default function Index() {
       {/* SECTION 6: FIRST CALL TO ACTION BUTTON */}
       <section className="py-8 sm:py-10 lg:py-12 px-6 sm:px-8 lg:px-12 bg-white">
         <div className="max-w-3xl mx-auto text-center">
-          <button
-            className="px-8 sm:px-12 py-4 bg-[#D4827A] text-white font-medium rounded-lg transition-all duration-200"
-            style={{
-              transition: "all 0.2s ease",
-            }}
-            onMouseEnter={(e) => {
-              e.currentTarget.style.backgroundColor = "#C06E68";
-              e.currentTarget.style.transform = "scale(1.02)";
-              e.currentTarget.style.boxShadow = "0px 4px 12px rgba(192, 110, 104, 0.4)";
-            }}
-            onMouseLeave={(e) => {
-              e.currentTarget.style.backgroundColor = "#D4827A";
-              e.currentTarget.style.transform = "scale(1)";
-              e.currentTarget.style.boxShadow = "none";
-            }}
-          >
+          <button className="px-8 sm:px-12 py-4 bg-[#D4827A] text-white font-medium rounded-lg hover:opacity-90 transition-opacity">
             Reserve My First Jar of Chewpies
           </button>
         </div>
@@ -427,20 +412,7 @@ export default function Index() {
             />
             <button
               type="submit"
-              className="w-full px-8 py-4 bg-[#D4827A] text-white font-medium rounded-lg transition-all duration-200"
-              style={{
-                transition: "all 0.2s ease",
-              }}
-              onMouseEnter={(e) => {
-                e.currentTarget.style.backgroundColor = "#C06E68";
-                e.currentTarget.style.transform = "scale(1.02)";
-                e.currentTarget.style.boxShadow = "0px 4px 12px rgba(192, 110, 104, 0.4)";
-              }}
-              onMouseLeave={(e) => {
-                e.currentTarget.style.backgroundColor = "#D4827A";
-                e.currentTarget.style.transform = "scale(1)";
-                e.currentTarget.style.boxShadow = "none";
-              }}
+              className="w-full px-8 py-4 bg-[#D4827A] text-white font-medium rounded-lg hover:opacity-90 transition-opacity"
             >
               Reserve My First Jar of Chewpies
             </button>
