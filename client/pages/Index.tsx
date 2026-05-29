@@ -294,11 +294,11 @@ export default function Index() {
             />
           </div>
 
-          <p className="text-base sm:text-lg text-[#666666] leading-relaxed">
+          <p className="text-base sm:text-lg text-[#666666] leading-relaxed mb-6">
             Chewpies Chewables is a hip and joint soft chew formulated exclusively for dogs under 10kg.
           </p>
 
-          <p className="text-base sm:text-lg text-[#666666] leading-relaxed">
+          <p className="text-base sm:text-lg text-[#666666] leading-relaxed mb-6">
             Not a large dog formula cut into smaller pieces. Not a generic supplement with a small breed label on the front.
           </p>
 
