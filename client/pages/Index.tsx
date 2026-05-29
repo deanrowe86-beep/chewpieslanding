@@ -15,9 +15,12 @@ export default function Index() {
 
       {/* SECTION 2: SUBHEADLINE */}
       <section className="py-16 sm:py-20 lg:py-20 px-6 sm:px-8 lg:px-12">
-        <div className="max-w-3xl mx-auto text-center">
-          <p className="text-lg sm:text-xl text-[#666666] mb-12 leading-relaxed">
-            Most small dog owners only discover hidden joint damage after visible limping has already begun. By then, the wear is further along than anyone realised.
+        <div className="max-w-3xl mx-auto text-center space-y-5">
+          <p className="text-lg sm:text-xl text-[#666666] leading-relaxed">
+            Most small dog owners only discover hidden joint damage after visible limping has already begun.
+          </p>
+          <p className="text-lg sm:text-xl text-[#666666] leading-relaxed">
+            By then, the wear is further along than anyone realised.
           </p>
         </div>
       </section>
