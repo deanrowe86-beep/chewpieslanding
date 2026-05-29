@@ -203,7 +203,7 @@ export default function Index() {
 
             <div className="flex justify-center gap-1 mb-4">
               {[...Array(5)].map((_, i) => (
-                <div key={i} className="w-4 h-4 rounded-full bg-[#A8B89C]"></div>
+                <div key={i} className="w-4 h-4 rounded-full bg-[#D4A574]"></div>
               ))}
             </div>
 
@@ -224,7 +224,7 @@ export default function Index() {
 
             <div className="flex justify-center gap-1 mb-4">
               {[...Array(5)].map((_, i) => (
-                <div key={i} className="w-4 h-4 rounded-full bg-[#A8B89C]"></div>
+                <div key={i} className="w-4 h-4 rounded-full bg-[#D4A574]"></div>
               ))}
             </div>
 
@@ -245,7 +245,7 @@ export default function Index() {
 
             <div className="flex justify-center gap-1 mb-4">
               {[...Array(5)].map((_, i) => (
-                <div key={i} className="w-4 h-4 rounded-full bg-[#A8B89C]"></div>
+                <div key={i} className="w-4 h-4 rounded-full bg-[#D4A574]"></div>
               ))}
             </div>
 
@@ -367,7 +367,7 @@ export default function Index() {
       {/* SECTION 13: CLOSING TAGLINE */}
       <section className="py-16 sm:py-20 lg:py-24 px-6 sm:px-8 lg:px-12 bg-white">
         <div className="max-w-3xl mx-auto text-center">
-          <p className="text-lg sm:text-xl font-serif font-medium text-[#2C2C2C]">
+          <p className="text-sm sm:text-base italic text-[#666666]">
             Formulated for small dogs. By a small dog.
           </p>
         </div>
