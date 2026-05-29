@@ -1,4 +1,57 @@
+import { useState } from "react";
+
 export default function Index() {
+  const [formName, setFormName] = useState("");
+  const [formEmail, setFormEmail] = useState("");
+  const [submitted, setSubmitted] = useState(false);
+  const [error, setError] = useState("");
+  const [isLoading, setIsLoading] = useState(false);
+
+  const handleSubmit = async (e: React.FormEvent) => {
+    e.preventDefault();
+    setError("");
+    setIsLoading(true);
+
+    try {
+      const response = await fetch(
+        "https://a.klaviyo.com/client/subscriptions/?company_id=XdMRYE",
+        {
+          method: "POST",
+          headers: {
+            "Content-Type": "application/json",
+            "revision": "2023-12-15",
+          },
+          body: JSON.stringify({
+            data: {
+              type: "subscription",
+              attributes: {
+                list_id: "RxxGbg",
+                email: formEmail,
+                custom_source: "Chewpies Dry Test",
+              },
+            },
+          }),
+        }
+      );
+
+      if (response.ok) {
+        setSubmitted(true);
+        setFormName("");
+        setFormEmail("");
+      } else {
+        setError(
+          "Something went wrong. Please try again or email us at hello@chewpies.com"
+        );
+      }
+    } catch (err) {
+      setError(
+        "Something went wrong. Please try again or email us at hello@chewpies.com"
+      );
+    } finally {
+      setIsLoading(false);
+    }
+  };
+
   return (
     <div className="w-full bg-white">
       {/* SECTION 1: HEADLINE */}
@@ -393,26 +446,44 @@ export default function Index() {
             She has given you everything. This is one small thing you can give back.
           </p>
 
-          <form className="space-y-6 mb-8" onSubmit={(e) => e.preventDefault()}>
-            <input
-              type="text"
-              placeholder="Your name"
-              required
-              className="w-full px-6 py-4 border border-[#E8C4B8] rounded-lg bg-white text-[#2C2C2C] placeholder:text-[#999999] focus:outline-none focus:border-[#A8B89C] transition-colors"
-            />
-            <input
-              type="email"
-              placeholder="Your email address"
-              required
-              className="w-full px-6 py-4 border border-[#E8C4B8] rounded-lg bg-white text-[#2C2C2C] placeholder:text-[#999999] focus:outline-none focus:border-[#A8B89C] transition-colors"
-            />
-            <button
-              type="submit"
-              className="w-full px-8 py-4 bg-[#D4827A] text-white font-medium rounded-lg hover:opacity-90 transition-opacity"
-            >
-              Reserve My First Jar of Chewpies
-            </button>
-          </form>
+          {submitted ? (
+            <p className="text-base sm:text-lg text-[#666666] leading-relaxed mb-8">
+              You are on the list. We will be in touch soon with your exclusive founding customer pricing.
+            </p>
+          ) : (
+            <>
+              <form className="space-y-6 mb-8" onSubmit={handleSubmit}>
+                <input
+                  type="text"
+                  placeholder="Your name"
+                  required
+                  value={formName}
+                  onChange={(e) => setFormName(e.target.value)}
+                  className="w-full px-6 py-4 border border-[#E8C4B8] rounded-lg bg-white text-[#2C2C2C] placeholder:text-[#999999] focus:outline-none focus:border-[#A8B89C] transition-colors"
+                />
+                <input
+                  type="email"
+                  placeholder="Your email address"
+                  required
+                  value={formEmail}
+                  onChange={(e) => setFormEmail(e.target.value)}
+                  className="w-full px-6 py-4 border border-[#E8C4B8] rounded-lg bg-white text-[#2C2C2C] placeholder:text-[#999999] focus:outline-none focus:border-[#A8B89C] transition-colors"
+                />
+                <button
+                  type="submit"
+                  disabled={isLoading}
+                  className="w-full px-8 py-4 bg-[#D4827A] text-white font-medium rounded-lg hover:opacity-90 transition-opacity disabled:opacity-70"
+                >
+                  {isLoading ? "Submitting..." : "Reserve My First Jar of Chewpies"}
+                </button>
+              </form>
+              {error && (
+                <p className="text-center text-xs sm:text-sm text-[#D4827A] mb-8">
+                  {error}
+                </p>
+              )}
+            </>
+          )}
 
           <p className="text-center text-xs sm:text-sm text-[#666666]">
             No payment required today. We will contact you directly when your order is ready to ship with your exclusive founding customer pricing.
