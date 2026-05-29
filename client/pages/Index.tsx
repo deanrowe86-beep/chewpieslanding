@@ -443,9 +443,14 @@ export default function Index() {
           </p>
 
           {submitted ? (
-            <p className="text-base sm:text-lg text-[#666666] leading-relaxed mb-8">
-              You are on the list. We will be in touch soon with your exclusive founding customer pricing.
-            </p>
+            <div className="py-12 sm:py-16 lg:py-20">
+              <p className="text-3xl sm:text-4xl lg:text-5xl font-serif font-medium mb-4 text-[#2C2C2C] leading-tight">
+                You are on the list.
+              </p>
+              <p className="text-base sm:text-lg text-[#666666] leading-relaxed">
+                We will be in touch soon with your exclusive founding customer pricing.
+              </p>
+            </div>
           ) : (
             <>
               <form className="space-y-6 mb-8" onSubmit={handleSubmit}>
