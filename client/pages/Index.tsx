@@ -2,18 +2,18 @@ export default function Index() {
   return (
     <div className="w-full bg-white">
       {/* SECTION 1 & 2: HEADLINE + DOGS IMAGE + SUBHEADLINE */}
-      <section className="py-16 sm:py-20 lg:py-24 px-6 sm:px-8 lg:px-12 bg-white">
+      <section className="py-16 sm:py-20 lg:py-24 px-6 sm:px-8 lg:px-12">
         <div className="max-w-3xl mx-auto text-center">
           <h1 className="text-3xl sm:text-4xl lg:text-5xl font-serif font-medium mb-12 text-[#2C2C2C] leading-tight">
             Why jumping off your couch may be quietly destroying your small dog's joints years before you ever notice the signs.
           </h1>
 
           {/* Hero Dogs Image */}
-          <div className="mb-12 flex justify-center">
+          <div className="mb-12 flex justify-center bg-transparent">
             <img
-              src="https://cdn.builder.io/api/v1/image/assets%2Fc70e54e2e4db4a77ba2ec462c6022187%2F65d69f7b3164484c9961ad2d85ada07e?format=webp&width=800&height=1200"
+              src="https://cdn.builder.io/api/v1/image/assets%2Fc70e54e2e4db4a77ba2ec462c6022187%2F74b79f55b7d5429795192604d6764eed?format=webp&width=800&height=1200"
               alt="Small dog breeds"
-              className="w-full max-h-screen h-auto object-contain"
+              className="w-full max-h-screen h-auto object-contain bg-transparent"
               style={{ maxHeight: "450px" }}
             />
           </div>
