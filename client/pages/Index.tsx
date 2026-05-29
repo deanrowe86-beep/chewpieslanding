@@ -4,7 +4,7 @@ export default function Index() {
       {/* SECTION 1 & 2: HEADLINE + DOGS IMAGE + SUBHEADLINE */}
       <section className="py-16 sm:py-20 lg:py-24 px-6 sm:px-8 lg:px-12 bg-white">
         <div className="max-w-3xl mx-auto text-center">
-          <h1 className="text-4xl sm:text-5xl lg:text-6xl font-serif font-medium mb-12 text-[#2C2C2C] leading-tight">
+          <h1 className="text-3xl sm:text-4xl lg:text-5xl font-serif font-medium mb-12 text-[#2C2C2C] leading-tight">
             Why jumping off your couch may be quietly destroying your small dog's joints years before you ever notice the signs.
           </h1>
 
@@ -226,12 +226,12 @@ export default function Index() {
 
       {/* PRODUCT IMAGE: Three dogs with jar and chews */}
       <section className="py-6 sm:py-8 lg:py-10 px-6 sm:px-8 lg:px-12 bg-white">
-        <div className="max-w-2xl mx-auto flex justify-center">
+        <div className="max-w-2xl mx-auto flex justify-center bg-white">
           <img
             src="https://cdn.builder.io/api/v1/image/assets%2Fc70e54e2e4db4a77ba2ec462c6022187%2F880829324f24421a9c01159a55602d5a?format=webp&width=800&height=1200"
             alt="Three small dogs with Chewpies product jar and chews"
-            className="w-80 h-auto object-contain bg-white"
-            style={{ maxWidth: "300px" }}
+            className="h-auto object-contain"
+            style={{ maxWidth: "450px" }}
           />
         </div>
       </section>
