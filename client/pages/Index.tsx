@@ -144,6 +144,33 @@ export default function Index() {
               <p className="text-sm text-[#666666]">
                 Dog dad to Chewpie. The original co-founder.
               </p>
+
+              <div className="mt-8 flex flex-col sm:flex-row justify-center gap-6">
+                <div className="space-y-3 flex-1">
+                  <div className="rounded-lg overflow-hidden">
+                    <img
+                      src="https://cdn.builder.io/api/v1/image/assets%2Fc70e54e2e4db4a77ba2ec462c6022187%2F8785525068f94bc0a903fd6dd8dbfa1e?format=webp&width=800&height=1200"
+                      alt="Chewpie getting her morning sun"
+                      className="w-full h-auto object-cover"
+                    />
+                  </div>
+                  <p className="font-sans text-sm text-[#666666] text-center italic">
+                    Chewpie getting her morning sun
+                  </p>
+                </div>
+                <div className="space-y-3 flex-1">
+                  <div className="rounded-lg overflow-hidden">
+                    <img
+                      src="https://cdn.builder.io/api/v1/image/assets%2Fc70e54e2e4db4a77ba2ec462c6022187%2Fcc1a59d79a1044cfb99d3a7e0832ee00?format=webp&width=800&height=1200"
+                      alt="Chewpie on a day out on the Brisbane River"
+                      className="w-full h-auto object-cover"
+                    />
+                  </div>
+                  <p className="font-sans text-sm text-[#666666] text-center italic">
+                    Chewpie on a day out on the Brisbane River
+                  </p>
+                </div>
+              </div>
             </div>
           </div>
         </div>
