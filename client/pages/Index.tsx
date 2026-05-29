@@ -84,7 +84,7 @@ export default function Index() {
       {/* SECTION 5: FIRST CALL TO ACTION BUTTON */}
       <section className="py-12 sm:py-16 lg:py-20 px-6 sm:px-8 lg:px-12 bg-white">
         <div className="max-w-3xl mx-auto text-center">
-          <button className="px-8 sm:px-12 py-4 bg-[#A8B89C] text-white font-medium rounded-lg hover:opacity-90 transition-opacity">
+          <button className="px-8 sm:px-12 py-4 bg-[#D4827A] text-white font-medium rounded-lg hover:opacity-90 transition-opacity">
             Reserve My First Jar of Chewpies
           </button>
         </div>
@@ -331,7 +331,7 @@ export default function Index() {
             />
             <button
               type="submit"
-              className="w-full px-8 py-4 bg-[#A8B89C] text-white font-medium rounded-lg hover:opacity-90 transition-opacity"
+              className="w-full px-8 py-4 bg-[#D4827A] text-white font-medium rounded-lg hover:opacity-90 transition-opacity"
             >
               Reserve My First Jar of Chewpies
             </button>
