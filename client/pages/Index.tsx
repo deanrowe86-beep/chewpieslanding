@@ -1,23 +1,21 @@
 export default function Index() {
   return (
     <div className="w-full bg-white">
-      {/* SECTION 1 & 2: HEADLINE + DOGS IMAGE + SUBHEADLINE */}
+      {/* SECTION 1: HEADLINE */}
       <section className="py-16 sm:py-20 lg:py-24 px-6 sm:px-8 lg:px-12">
         <div className="max-w-3xl mx-auto text-center">
           <h1 className="text-2xl sm:text-3xl lg:text-4xl font-serif font-medium mb-12 text-[#2C2C2C] leading-tight">
             Why jumping off your couch may be quietly destroying your small dog's joints years before you ever notice the signs.
           </h1>
+        </div>
+      </section>
 
-          {/* Hero Dogs Image */}
-          <div className="mb-12 flex justify-center bg-transparent">
-            <img
-              src="https://cdn.builder.io/api/v1/image/assets%2Fc70e54e2e4db4a77ba2ec462c6022187%2F74b79f55b7d5429795192604d6764eed?format=webp&width=800&height=1200"
-              alt="Small dog breeds"
-              className="w-full max-h-screen h-auto object-contain bg-transparent"
-              style={{ maxHeight: "450px" }}
-            />
-          </div>
+      {/* Soft Divider */}
+      <div className="h-px bg-gradient-to-r from-transparent via-[#E8C4B8] to-transparent mx-12"></div>
 
+      {/* SECTION 2: SUBHEADLINE */}
+      <section className="py-16 sm:py-20 lg:py-24 px-6 sm:px-8 lg:px-12">
+        <div className="max-w-3xl mx-auto text-center">
           <p className="text-lg sm:text-xl text-[#666666] mb-12 leading-relaxed">
             Most small dog owners only discover hidden joint damage after visible limping has already begun. By then, the wear is further along than anyone realised.
           </p>
@@ -54,7 +52,27 @@ export default function Index() {
       {/* Soft Divider */}
       <div className="h-px bg-gradient-to-r from-transparent via-[#E8C4B8] to-transparent mx-12"></div>
 
-      {/* SECTION 4: BELIEF INTERRUPTION */}
+      {/* SECTION 4: SIX DOGS IMAGE */}
+      <section className="py-16 sm:py-20 lg:py-24 px-6 sm:px-8 lg:px-12 bg-white">
+        <div className="max-w-3xl mx-auto text-center">
+          <div className="mb-12 flex justify-center bg-transparent">
+            <img
+              src="https://cdn.builder.io/api/v1/image/assets%2Fc70e54e2e4db4a77ba2ec462c6022187%2F74b79f55b7d5429795192604d6764eed?format=webp&width=800&height=1200"
+              alt="Small dog breeds"
+              className="w-full max-h-screen h-auto object-contain bg-transparent"
+              style={{ maxHeight: "450px" }}
+            />
+          </div>
+          <p className="font-sans text-sm text-[#666666] text-center italic">
+            Chihuahuas. Yorkies. Pomeranians. Dachshunds. French Bulldogs. And every small dog in between.
+          </p>
+        </div>
+      </section>
+
+      {/* Soft Divider */}
+      <div className="h-px bg-gradient-to-r from-transparent via-[#E8C4B8] to-transparent mx-12"></div>
+
+      {/* SECTION 5: BELIEF INTERRUPTION */}
       <section className="py-16 sm:py-20 lg:py-24 px-6 sm:px-8 lg:px-12 bg-white">
         <div className="max-w-3xl mx-auto text-center space-y-6">
           <p className="text-base sm:text-lg text-[#666666] leading-relaxed">
@@ -81,7 +99,7 @@ export default function Index() {
       {/* Soft Divider */}
       <div className="h-px bg-gradient-to-r from-transparent via-[#E8C4B8] to-transparent mx-12"></div>
 
-      {/* SECTION 5: FIRST CALL TO ACTION BUTTON */}
+      {/* SECTION 6: FIRST CALL TO ACTION BUTTON */}
       <section className="py-12 sm:py-16 lg:py-20 px-6 sm:px-8 lg:px-12 bg-white">
         <div className="max-w-3xl mx-auto text-center">
           <button className="px-8 sm:px-12 py-4 bg-[#D4827A] text-white font-medium rounded-lg hover:opacity-90 transition-opacity">
@@ -93,36 +111,7 @@ export default function Index() {
       {/* Soft Divider */}
       <div className="h-px bg-gradient-to-r from-transparent via-[#E8C4B8] to-transparent mx-12"></div>
 
-      {/* SECTION 9: PRODUCT DESCRIPTION */}
-      <section className="py-16 sm:py-20 lg:py-24 px-6 sm:px-8 lg:px-12 bg-white">
-        <div className="max-w-3xl mx-auto text-center">
-          <h2 className="text-3xl sm:text-4xl lg:text-5xl font-serif font-medium mb-12 text-[#2C2C2C] leading-tight">
-            Introducing Chewpies Chewables.
-          </h2>
-
-          <div className="my-12 flex justify-center">
-            <img
-              src="https://cdn.builder.io/api/v1/image/assets%2Fc70e54e2e4db4a77ba2ec462c6022187%2F1c52e8f2303046989e22c3f2b3a04072?format=webp&width=800&height=1200"
-              alt="Chewpies Chewables jar"
-              className="h-auto object-contain"
-              style={{ maxWidth: "490px" }}
-            />
-          </div>
-
-          <p className="text-base sm:text-lg text-[#666666] leading-relaxed mb-8">
-            Chewpies Chewables is a hip and joint soft chew formulated exclusively for dogs under 10kg. Not a large dog formula cut into smaller pieces. Not a generic supplement with a small breed label on the front. Precision-dosed from the ground up for the physical reality of tiny dogs navigating a human-sized world.
-          </p>
-
-          <p className="text-lg sm:text-xl font-serif font-medium text-[#2C2C2C]">
-            Formulated for small dogs. By a small dog.
-          </p>
-        </div>
-      </section>
-
-      {/* Soft Divider */}
-      <div className="h-px bg-gradient-to-r from-transparent via-[#E8C4B8] to-transparent mx-12"></div>
-
-      {/* SECTION 6: FOUNDER NOTE */}
+      {/* SECTION 7: FOUNDER NOTE */}
       <section className="py-16 sm:py-20 lg:py-24 px-6 sm:px-8 lg:px-12 bg-white">
         <div className="max-w-3xl mx-auto text-center">
           <h2 className="text-3xl sm:text-4xl lg:text-5xl font-serif font-medium mb-12 text-[#2C2C2C] leading-tight">
@@ -200,7 +189,7 @@ export default function Index() {
       {/* Soft Divider */}
       <div className="h-px bg-gradient-to-r from-transparent via-[#E8C4B8] to-transparent mx-12"></div>
 
-      {/* SECTION 8: SOCIAL PROOF */}
+      {/* SECTION 8: SOCIAL PROOF / TESTIMONIALS */}
       <section className="py-16 sm:py-20 lg:py-24 px-6 sm:px-8 lg:px-12 bg-white">
         <div className="max-w-3xl mx-auto text-center">
           <h2 className="text-3xl sm:text-4xl lg:text-5xl font-serif font-medium mb-12 text-[#2C2C2C] leading-tight">
@@ -271,6 +260,35 @@ export default function Index() {
               Pomeranian owner
             </p>
           </div>
+        </div>
+      </section>
+
+      {/* Soft Divider */}
+      <div className="h-px bg-gradient-to-r from-transparent via-[#E8C4B8] to-transparent mx-12"></div>
+
+      {/* SECTION 9: PRODUCT DESCRIPTION */}
+      <section className="py-16 sm:py-20 lg:py-24 px-6 sm:px-8 lg:px-12 bg-white">
+        <div className="max-w-3xl mx-auto text-center">
+          <h2 className="text-3xl sm:text-4xl lg:text-5xl font-serif font-medium mb-12 text-[#2C2C2C] leading-tight">
+            Introducing Chewpies Chewables.
+          </h2>
+
+          <div className="my-12 flex justify-center">
+            <img
+              src="https://cdn.builder.io/api/v1/image/assets%2Fc70e54e2e4db4a77ba2ec462c6022187%2F1c52e8f2303046989e22c3f2b3a04072?format=webp&width=800&height=1200"
+              alt="Chewpies Chewables jar"
+              className="h-auto object-contain"
+              style={{ maxWidth: "490px" }}
+            />
+          </div>
+
+          <p className="text-base sm:text-lg text-[#666666] leading-relaxed mb-8">
+            Chewpies Chewables is a hip and joint soft chew formulated exclusively for dogs under 10kg. Not a large dog formula cut into smaller pieces. Not a generic supplement with a small breed label on the front. Precision-dosed from the ground up for the physical reality of tiny dogs navigating a human-sized world.
+          </p>
+
+          <p className="text-lg sm:text-xl font-serif font-medium text-[#2C2C2C]">
+            Formulated for small dogs. By a small dog.
+          </p>
         </div>
       </section>
 
