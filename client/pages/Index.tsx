@@ -82,7 +82,7 @@ export default function Index() {
             Most owners assume the hesitation at the stairs is just age.
           </p>
           <p className="text-base sm:text-lg text-[#666666] leading-relaxed">
-            It is not.
+            It's not.
           </p>
           <p className="text-base sm:text-lg text-[#666666] leading-relaxed">
             Age is the timeline.
