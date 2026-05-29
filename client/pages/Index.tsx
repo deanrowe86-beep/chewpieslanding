@@ -13,24 +13,19 @@ export default function Index() {
     setIsLoading(true);
 
     try {
+      const params = new URLSearchParams();
+      params.append("g", "RxxGbg");
+      params.append("email", formEmail);
+      params.append("$first_name", formName);
+
       const response = await fetch(
-        "https://a.klaviyo.com/client/subscriptions/?company_id=XdMRYE",
+        "https://manage.kmail-lists.com/ajax/subscriptions/subscribe",
         {
           method: "POST",
           headers: {
-            "Content-Type": "application/json",
-            "revision": "2023-12-15",
+            "Content-Type": "application/x-www-form-urlencoded",
           },
-          body: JSON.stringify({
-            data: {
-              type: "subscription",
-              attributes: {
-                list_id: "RxxGbg",
-                email: formEmail,
-                custom_source: "Chewpies Dry Test",
-              },
-            },
-          }),
+          body: params.toString(),
         }
       );
 
