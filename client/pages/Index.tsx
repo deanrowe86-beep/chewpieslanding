@@ -225,13 +225,13 @@ export default function Index() {
       <div className="h-px bg-gradient-to-r from-transparent via-[#E8C4B8] to-transparent mx-12"></div>
 
       {/* PRODUCT IMAGE: Three dogs with jar and chews */}
-      <section className="py-6 sm:py-8 lg:py-10 px-6 sm:px-8 lg:px-12 bg-white">
-        <div className="max-w-2xl mx-auto flex justify-center bg-white">
+      <section className="py-6 sm:py-8 lg:py-10 px-6 sm:px-8 lg:px-12 bg-white" style={{ backgroundColor: "#FFFFFF" }}>
+        <div className="max-w-2xl mx-auto flex justify-center bg-white" style={{ backgroundColor: "#FFFFFF" }}>
           <img
-            src="https://cdn.builder.io/api/v1/image/assets%2Fc70e54e2e4db4a77ba2ec462c6022187%2F880829324f24421a9c01159a55602d5a?format=webp&width=800&height=1200"
+            src="https://cdn.builder.io/api/v1/image/assets%2Fc70e54e2e4db4a77ba2ec462c6022187%2F7142c2c8b08448d1abba28d06d84855a?format=webp&width=800&height=1200"
             alt="Three small dogs with Chewpies product jar and chews"
-            className="h-auto object-contain"
-            style={{ maxWidth: "450px" }}
+            className="h-auto object-contain bg-white"
+            style={{ maxWidth: "450px", backgroundColor: "#FFFFFF" }}
           />
         </div>
       </section>
