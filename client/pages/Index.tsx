@@ -132,7 +132,7 @@ export default function Index() {
                 <img
                   src="https://cdn.builder.io/api/v1/image/assets%2Fc70e54e2e4db4a77ba2ec462c6022187%2F99ecfcbeb5b949c7aef9dc63e8e162c4?format=webp&width=800&height=1200"
                   alt="Small dog breeds"
-                  className="w-auto h-auto"
+                  className="w-auto h-auto opacity-50"
                   style={{ maxWidth: "300px" }}
                 />
               </div>
