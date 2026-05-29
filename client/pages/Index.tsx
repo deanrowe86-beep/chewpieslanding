@@ -360,7 +360,7 @@ export default function Index() {
       <section className="py-8 sm:py-10 lg:py-12 px-6 sm:px-8 lg:px-12 bg-white">
         <div className="max-w-3xl mx-auto text-center">
           <p className="text-base sm:text-lg text-[#666666] leading-relaxed mb-12">
-            You noticed the signs when most owners would have looked away. Now do something about it.
+            She has given you everything. This is one small thing you can give back.
           </p>
 
           <form className="space-y-6 mb-8" onSubmit={(e) => e.preventDefault()}>
