@@ -292,6 +292,10 @@ export default function Index() {
             <p className="text-xs sm:text-sm text-[#666666]">
               Pomeranian owner
             </p>
+
+            <p className="text-xs italic text-[#BBBBBB] text-center" style={{ fontSize: "10px", letterSpacing: "0.03em", marginTop: "24px" }}>
+              Based on independent product testing conducted with small dog owners in our local community prior to launch.
+            </p>
           </div>
         </div>
       </section>
