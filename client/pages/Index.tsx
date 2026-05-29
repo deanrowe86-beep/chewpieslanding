@@ -18,7 +18,7 @@ export default function Index() {
       params.append("email", formEmail);
       params.append("$first_name", formName);
 
-      const response = await fetch(
+      await fetch(
         "https://manage.kmail-lists.com/ajax/subscriptions/subscribe",
         {
           method: "POST",
@@ -29,21 +29,22 @@ export default function Index() {
         }
       );
 
-      if (response.ok) {
-        setSubmitted(true);
-        setFormName("");
-        setFormEmail("");
-      } else {
-        setError(
-          "Something went wrong. Please try again or email us at hello@chewpies.com"
-        );
-      }
+      setSubmitted(true);
+      setFormName("");
+      setFormEmail("");
     } catch (err) {
       setError(
         "Something went wrong. Please try again or email us at hello@chewpies.com"
       );
     } finally {
       setIsLoading(false);
+    }
+  };
+
+  const scrollToForm = () => {
+    const formElement = document.getElementById("reserve-form");
+    if (formElement) {
+      formElement.scrollIntoView({ behavior: "smooth" });
     }
   };
 
@@ -180,7 +181,7 @@ export default function Index() {
       {/* SECTION 6: FIRST CALL TO ACTION BUTTON */}
       <section className="py-8 sm:py-10 lg:py-12 px-6 sm:px-8 lg:px-12 bg-white">
         <div className="max-w-3xl mx-auto text-center">
-          <button className="px-8 sm:px-12 py-4 bg-[#D4827A] text-white font-medium rounded-lg hover:opacity-90 transition-opacity">
+          <button onClick={scrollToForm} className="px-8 sm:px-12 py-4 bg-[#D4827A] text-white font-medium rounded-lg hover:opacity-90 transition-opacity">
             Reserve My First Jar of Chewpies
           </button>
         </div>
@@ -267,7 +268,7 @@ export default function Index() {
       {/* CTA after Founder Photos */}
       <section className="py-8 sm:py-10 lg:py-12 px-6 sm:px-8 lg:px-12 bg-white">
         <div className="max-w-3xl mx-auto text-center">
-          <button className="px-8 sm:px-12 py-4 bg-[#D4827A] text-white font-medium rounded-lg hover:opacity-90 transition-opacity">
+          <button onClick={scrollToForm} className="px-8 sm:px-12 py-4 bg-[#D4827A] text-white font-medium rounded-lg hover:opacity-90 transition-opacity">
             Reserve My First Jar of Chewpies
           </button>
         </div>
@@ -347,7 +348,7 @@ export default function Index() {
       {/* CTA after Testimonials */}
       <section className="py-8 sm:py-10 lg:py-12 px-6 sm:px-8 lg:px-12 bg-white">
         <div className="max-w-3xl mx-auto text-center">
-          <button className="px-8 sm:px-12 py-4 bg-[#D4827A] text-white font-medium rounded-lg hover:opacity-90 transition-opacity">
+          <button onClick={scrollToForm} className="px-8 sm:px-12 py-4 bg-[#D4827A] text-white font-medium rounded-lg hover:opacity-90 transition-opacity">
             Reserve My First Jar of Chewpies
           </button>
         </div>
@@ -393,7 +394,7 @@ export default function Index() {
       {/* CTA after Product Section */}
       <section className="py-8 sm:py-10 lg:py-12 px-6 sm:px-8 lg:px-12 bg-white">
         <div className="max-w-3xl mx-auto text-center">
-          <button className="px-8 sm:px-12 py-4 bg-[#D4827A] text-white font-medium rounded-lg hover:opacity-90 transition-opacity">
+          <button onClick={scrollToForm} className="px-8 sm:px-12 py-4 bg-[#D4827A] text-white font-medium rounded-lg hover:opacity-90 transition-opacity">
             Reserve My First Jar of Chewpies
           </button>
         </div>
@@ -435,7 +436,7 @@ export default function Index() {
       <div className="h-px bg-gradient-to-r from-transparent via-[#E8C4B8] to-transparent mx-12"></div>
 
       {/* SECTION 12: FINAL CALL TO ACTION */}
-      <section className="py-8 sm:py-10 lg:py-12 px-6 sm:px-8 lg:px-12 bg-white">
+      <section id="reserve-form" className="py-8 sm:py-10 lg:py-12 px-6 sm:px-8 lg:px-12 bg-white">
         <div className="max-w-3xl mx-auto text-center">
           <p className="text-base sm:text-lg text-[#666666] leading-relaxed mb-12">
             She has given you everything. This is one small thing you can give back.
