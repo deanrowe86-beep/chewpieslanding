@@ -123,27 +123,6 @@ export default function Index() {
       {/* Soft Divider */}
       <div className="h-px bg-gradient-to-r from-transparent via-[#E8C4B8] to-transparent mx-12"></div>
 
-      {/* SECTION 7: FOUNDER PHOTOS */}
-      <section className="py-16 sm:py-20 lg:py-24 px-6 sm:px-8 lg:px-12 bg-white">
-        <div className="max-w-2xl mx-auto">
-          <div className="flex justify-center">
-            <div className="space-y-3">
-              <div className="rounded-lg overflow-hidden">
-                <img
-                  src="https://cdn.builder.io/api/v1/image/assets%2Fc70e54e2e4db4a77ba2ec462c6022187%2F99ecfcbeb5b949c7aef9dc63e8e162c4?format=webp&width=800&height=1200"
-                  alt="Small dog breeds"
-                  className="w-auto h-auto opacity-50"
-                  style={{ maxWidth: "300px" }}
-                />
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      {/* Soft Divider */}
-      <div className="h-px bg-gradient-to-r from-transparent via-[#E8C4B8] to-transparent mx-12"></div>
-
       {/* SECTION 8: SOCIAL PROOF */}
       <section className="py-16 sm:py-20 lg:py-24 px-6 sm:px-8 lg:px-12 bg-white">
         <div className="max-w-3xl mx-auto text-center">
