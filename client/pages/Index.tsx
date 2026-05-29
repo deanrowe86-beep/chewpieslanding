@@ -11,8 +11,8 @@ export default function Index() {
           {/* Hero Dogs Image */}
           <div className="mb-12 flex justify-center">
             <img
-              src="https://cdn.builder.io/api/v1/image/assets%2Fc70e54e2e4db4a77ba2ec462c6022187%2Faa1116df7e944d43bd271198b3603488?format=webp&width=800&height=1200"
-              alt="Five small dog breeds"
+              src="https://cdn.builder.io/api/v1/image/assets%2Fc70e54e2e4db4a77ba2ec462c6022187%2Fd982a5bfe3a7494f8740562bcbb0e826?format=webp&width=800&height=1200"
+              alt="Small dog breeds"
               className="w-full max-h-screen h-auto object-contain"
               style={{ maxHeight: "450px" }}
             />
