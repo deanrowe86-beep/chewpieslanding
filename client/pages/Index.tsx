@@ -126,32 +126,16 @@ export default function Index() {
       {/* SECTION 7: FOUNDER PHOTOS */}
       <section className="py-16 sm:py-20 lg:py-24 px-6 sm:px-8 lg:px-12 bg-white">
         <div className="max-w-2xl mx-auto">
-          <div className="flex justify-center gap-6">
+          <div className="flex justify-center">
             <div className="space-y-3">
               <div className="rounded-lg overflow-hidden">
                 <img
-                  src="https://cdn.builder.io/api/v1/image/assets%2Fc70e54e2e4db4a77ba2ec462c6022187%2Fc828c90c535e4b79a0c894b9a5cad79e?format=webp&width=800&height=1200"
-                  alt="Chewpie getting her morning sun"
-                  className="w-80 h-auto"
+                  src="https://cdn.builder.io/api/v1/image/assets%2Fc70e54e2e4db4a77ba2ec462c6022187%2F99ecfcbeb5b949c7aef9dc63e8e162c4?format=webp&width=800&height=1200"
+                  alt="Small dog breeds"
+                  className="w-auto h-auto"
                   style={{ maxWidth: "300px" }}
                 />
               </div>
-              <p className="font-sans text-sm text-[#A8B89C] text-center italic">
-                Chewpie getting her morning sun
-              </p>
-            </div>
-            <div className="space-y-3">
-              <div className="rounded-lg overflow-hidden">
-                <img
-                  src="https://cdn.builder.io/api/v1/image/assets%2Fc70e54e2e4db4a77ba2ec462c6022187%2F3ccd499b69b24a6abd03f9f724da7239?format=webp&width=800&height=1200"
-                  alt="Chewpie on a day out on the Brisbane River"
-                  className="w-80 h-auto"
-                  style={{ maxWidth: "300px" }}
-                />
-              </div>
-              <p className="font-sans text-sm text-[#A8B89C] text-center italic">
-                Chewpie on a day out on the Brisbane River
-              </p>
             </div>
           </div>
         </div>
