@@ -4,7 +4,7 @@ export default function Index() {
       {/* SECTION 1 & 2: HEADLINE + DOGS IMAGE + SUBHEADLINE */}
       <section className="py-16 sm:py-20 lg:py-24 px-6 sm:px-8 lg:px-12">
         <div className="max-w-3xl mx-auto text-center">
-          <h1 className="text-3xl sm:text-4xl lg:text-5xl font-serif font-medium mb-12 text-[#2C2C2C] leading-tight">
+          <h1 className="text-2xl sm:text-3xl lg:text-4xl font-serif font-medium mb-12 text-[#2C2C2C] leading-tight">
             Why jumping off your couch may be quietly destroying your small dog's joints years before you ever notice the signs.
           </h1>
 
