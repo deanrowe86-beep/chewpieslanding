@@ -34,13 +34,19 @@ export default function Index() {
             She still follows you from room to room. A loyal little shadow whose entire world is built around keeping up with your footsteps.
           </p>
           <p className="text-base sm:text-lg text-[#666666] leading-relaxed">
-            But lately you have noticed something. The briefest pause at the foot of the bed. A quiet hesitation before the stairs. The way she stands at the edge of the sofa, looks up at you, and waits.
+            But lately you have noticed something. The briefest pause at the foot of the bed.
+          </p>
+          <p className="text-base sm:text-lg text-[#666666] leading-relaxed">
+            A quiet hesitation before the stairs. The way she stands at the edge of the sofa, looks up at you, and waits.
           </p>
           <p className="text-base sm:text-lg text-[#666666] leading-relaxed">
             You tell yourself she is just getting older.
           </p>
           <p className="text-base sm:text-lg text-[#666666] leading-relaxed">
-            But deep down, you know. She depends on you for everything. And she cannot tell you when she is hurting.
+            But deep down, you know. She depends on you for everything.
+          </p>
+          <p className="text-base sm:text-lg text-[#666666] leading-relaxed">
+            And she cannot tell you when she is hurting.
           </p>
         </div>
       </section>
@@ -58,10 +64,16 @@ export default function Index() {
             Age is the timeline. Daily impact is the cause.
           </p>
           <p className="text-base sm:text-lg text-[#666666] leading-relaxed">
-            To a five-pound Chihuahua, jumping off a standard sofa is the physical equivalent of a human leaping from a first-storey roof. Multiple times. Every single day. And toy breeds are wired by instinct to mask that discomfort long before any visible sign appears.
+            To a five-pound Chihuahua, jumping off a standard sofa is the physical equivalent of a human leaping from a first-storey roof.
           </p>
           <p className="text-base sm:text-lg text-[#666666] leading-relaxed">
-            By the time limping shows up, the damage is often already advanced. The hesitation you are noticing right now is not your dog slowing down. It is your dog asking for help in the only language she has.
+            Multiple times. Every single day. And toy breeds are wired by instinct to mask that discomfort long before any visible sign appears.
+          </p>
+          <p className="text-base sm:text-lg text-[#666666] leading-relaxed">
+            By the time limping shows up, the damage is often already advanced.
+          </p>
+          <p className="text-base sm:text-lg text-[#666666] leading-relaxed">
+            The hesitation you are noticing right now is not your dog slowing down. It is your dog asking for help in the only language she has.
           </p>
         </div>
       </section>
@@ -122,19 +134,28 @@ export default function Index() {
               I have a seven-pound Chihuahua named Chewpie.
             </p>
             <p className="text-base sm:text-lg text-[#666666] leading-relaxed">
-              One morning she stood at the foot of the bed and paused. Just for a second. A hesitation so small most people would have walked straight past it.
+              One morning she stood at the foot of the bed and paused.
+            </p>
+            <p className="text-base sm:text-lg text-[#666666] leading-relaxed">
+              Just for a second. A hesitation so small most people would have walked straight past it.
             </p>
             <p className="text-base sm:text-lg text-[#666666] leading-relaxed">
               I did not walk past it.
             </p>
             <p className="text-base sm:text-lg text-[#666666] leading-relaxed">
-              What I found when I started researching disturbed me. The daily impact on her tiny joints from nothing more than living in my home. The way every supplement on the market was built for a forty-pound dog and simply relabelled for small breeds.
+              What I found when I started researching disturbed me. The daily impact on her tiny joints from nothing more than living in my home.
+            </p>
+            <p className="text-base sm:text-lg text-[#666666] leading-relaxed">
+              The way every supplement on the market was built for a forty-pound dog and simply relabelled for small breeds.
             </p>
             <p className="text-base sm:text-lg text-[#666666] leading-relaxed">
               She gives me everything. The least I could do was give her something built specifically for her.
             </p>
             <p className="text-base sm:text-lg text-[#666666] leading-relaxed">
-              If you are reading this, you are the kind of owner who noticed the signs before anyone else did. That is exactly who Chewpies was built for.
+              If you are reading this, you are the kind of owner who noticed the signs before anyone else did.
+            </p>
+            <p className="text-base sm:text-lg text-[#666666] leading-relaxed">
+              That is exactly who Chewpies was built for.
             </p>
 
             <div className="pt-6 border-t border-[#E8C4B8]">
