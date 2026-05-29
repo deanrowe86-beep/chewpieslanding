@@ -188,6 +188,48 @@ export default function Index() {
 
           <div className="space-y-6">
             <p className="text-base sm:text-lg text-[#666666] leading-relaxed">
+              Sarah had already spent $50 on a supplement her Chihuahua refused to touch. She was frustrated, skeptical, and out of options. Then she tried Chewpies.
+            </p>
+
+            <div className="flex justify-center gap-1 mb-4">
+              {[...Array(5)].map((_, i) => (
+                <div key={i} className="w-4 h-4 rounded-full bg-[#A8B89C]"></div>
+              ))}
+            </div>
+
+            <p className="text-base sm:text-lg font-serif-garamond text-[#666666] leading-relaxed italic">
+              "I spent $50 on chews from another brand and my Chihuahua wouldn't even touch them. With Chewpies she actually runs to get her chew. Within three weeks she was jumping on the couch again."
+            </p>
+
+            <p className="text-sm sm:text-base text-[#2C2C2C] font-medium">
+              Sarah M.
+            </p>
+            <p className="text-xs sm:text-sm text-[#666666]">
+              Chihuahua owner
+            </p>
+
+            <p className="text-base sm:text-lg text-[#666666] leading-relaxed pt-6">
+              James watched his Miniature Dachshund develop visible back stiffness at just four years old. He had tried everything. Nothing worked until it did.
+            </p>
+
+            <div className="flex justify-center gap-1 mb-4">
+              {[...Array(5)].map((_, i) => (
+                <div key={i} className="w-4 h-4 rounded-full bg-[#A8B89C]"></div>
+              ))}
+            </div>
+
+            <p className="text-base sm:text-lg font-serif-garamond text-[#666666] leading-relaxed italic">
+              "My Dachshund started showing back stiffness at age four. Chewpies is the first supplement he eats willingly and his morning stiffness has visibly improved."
+            </p>
+
+            <p className="text-sm sm:text-base text-[#2C2C2C] font-medium">
+              James T.
+            </p>
+            <p className="text-xs sm:text-sm text-[#666666]">
+              Miniature Dachshund owner
+            </p>
+
+            <p className="text-base sm:text-lg text-[#666666] leading-relaxed pt-6">
               Michelle had stopped expecting her Pomeranian to jump up beside her on the couch. She had quietly accepted it as the new normal. Until the morning everything changed.
             </p>
 
