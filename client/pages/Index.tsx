@@ -224,6 +224,20 @@ export default function Index() {
       {/* Soft Divider */}
       <div className="h-px bg-gradient-to-r from-transparent via-[#E8C4B8] to-transparent mx-12"></div>
 
+      {/* PRODUCT IMAGE: Three dogs with jar and chews */}
+      <section className="py-6 sm:py-8 lg:py-10 px-6 sm:px-8 lg:px-12 bg-white">
+        <div className="max-w-6xl mx-auto flex justify-center">
+          <img
+            src="https://cdn.builder.io/api/v1/image/assets%2Fc70e54e2e4db4a77ba2ec462c6022187%2F880829324f24421a9c01159a55602d5a?format=webp&width=800&height=1200"
+            alt="Three small dogs with Chewpies product jar and chews"
+            className="w-full h-auto object-contain"
+          />
+        </div>
+      </section>
+
+      {/* Soft Divider */}
+      <div className="h-px bg-gradient-to-r from-transparent via-[#E8C4B8] to-transparent mx-12"></div>
+
       {/* SECTION 10: GUARANTEE */}
       <section className="py-16 sm:py-20 lg:py-24 px-6 sm:px-8 lg:px-12 bg-white">
         <div className="max-w-3xl mx-auto text-center">
