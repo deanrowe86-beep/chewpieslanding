@@ -2,7 +2,7 @@ export default function Index() {
   return (
     <div className="w-full bg-white">
       {/* SECTION 1: HEADLINE */}
-      <section className="py-16 sm:py-20 lg:py-24 px-6 sm:px-8 lg:px-12">
+      <section className="py-8 sm:py-10 lg:py-12 px-6 sm:px-8 lg:px-12">
         <div className="max-w-3xl mx-auto text-center">
           <h1 className="text-2xl sm:text-3xl lg:text-4xl font-serif font-medium mb-12 text-[#2C2C2C] leading-tight">
             Why jumping off your couch may be quietly destroying your small dog's joints years before you ever notice the signs.
@@ -14,7 +14,7 @@ export default function Index() {
       <div className="h-px bg-gradient-to-r from-transparent via-[#E8C4B8] to-transparent mx-12"></div>
 
       {/* SECTION 2: SUBHEADLINE */}
-      <section className="py-16 sm:py-20 lg:py-24 px-6 sm:px-8 lg:px-12">
+      <section className="py-8 sm:py-10 lg:py-12 px-6 sm:px-8 lg:px-12">
         <div className="max-w-3xl mx-auto text-center">
           <p className="text-lg sm:text-xl text-[#666666] mb-12 leading-relaxed">
             Most small dog owners only discover hidden joint damage after visible limping has already begun. By then, the wear is further along than anyone realised.
@@ -26,7 +26,7 @@ export default function Index() {
       <div className="h-px bg-gradient-to-r from-transparent via-[#E8C4B8] to-transparent mx-12"></div>
 
       {/* SECTION 3: OPENING PARAGRAPH */}
-      <section className="py-16 sm:py-20 lg:py-24 px-6 sm:px-8 lg:px-12 bg-white">
+      <section className="py-8 sm:py-10 lg:py-12 px-6 sm:px-8 lg:px-12 bg-white">
         <div className="max-w-3xl mx-auto text-center space-y-6">
           <p className="text-base sm:text-lg text-[#666666] leading-relaxed">
             She still follows you from room to room. A loyal little shadow whose entire world is built around keeping up with your footsteps.
@@ -53,7 +53,7 @@ export default function Index() {
       <div className="h-px bg-gradient-to-r from-transparent via-[#E8C4B8] to-transparent mx-12"></div>
 
       {/* SECTION 4: SIX DOGS IMAGE */}
-      <section className="py-16 sm:py-20 lg:py-24 px-6 sm:px-8 lg:px-12 bg-white">
+      <section className="py-8 sm:py-10 lg:py-12 px-6 sm:px-8 lg:px-12 bg-white">
         <div className="max-w-3xl mx-auto text-center">
           <div className="mb-12 flex justify-center bg-transparent">
             <img
@@ -73,7 +73,7 @@ export default function Index() {
       <div className="h-px bg-gradient-to-r from-transparent via-[#E8C4B8] to-transparent mx-12"></div>
 
       {/* SECTION 5: BELIEF INTERRUPTION */}
-      <section className="py-16 sm:py-20 lg:py-24 px-6 sm:px-8 lg:px-12 bg-white">
+      <section className="py-8 sm:py-10 lg:py-12 px-6 sm:px-8 lg:px-12 bg-white">
         <div className="max-w-3xl mx-auto text-center space-y-6">
           <p className="text-base sm:text-lg text-[#666666] leading-relaxed">
             Most owners assume the hesitation at the stairs is just age. It is not.
@@ -100,7 +100,7 @@ export default function Index() {
       <div className="h-px bg-gradient-to-r from-transparent via-[#E8C4B8] to-transparent mx-12"></div>
 
       {/* SECTION 6: FIRST CALL TO ACTION BUTTON */}
-      <section className="py-12 sm:py-16 lg:py-20 px-6 sm:px-8 lg:px-12 bg-white">
+      <section className="py-8 sm:py-10 lg:py-12 px-6 sm:px-8 lg:px-12 bg-white">
         <div className="max-w-3xl mx-auto text-center">
           <button className="px-8 sm:px-12 py-4 bg-[#D4827A] text-white font-medium rounded-lg hover:opacity-90 transition-opacity">
             Reserve My First Jar of Chewpies
@@ -112,7 +112,7 @@ export default function Index() {
       <div className="h-px bg-gradient-to-r from-transparent via-[#E8C4B8] to-transparent mx-12"></div>
 
       {/* SECTION 7: FOUNDER NOTE */}
-      <section className="py-16 sm:py-20 lg:py-24 px-6 sm:px-8 lg:px-12 bg-white">
+      <section className="py-8 sm:py-10 lg:py-12 px-6 sm:px-8 lg:px-12 bg-white">
         <div className="max-w-3xl mx-auto text-center">
           <h2 className="text-3xl sm:text-4xl lg:text-5xl font-serif font-medium mb-12 text-[#2C2C2C] leading-tight">
             A note from our founders.
@@ -186,11 +186,20 @@ export default function Index() {
         </div>
       </section>
 
+      {/* CTA after Founder Photos */}
+      <section className="py-8 sm:py-10 lg:py-12 px-6 sm:px-8 lg:px-12 bg-white">
+        <div className="max-w-3xl mx-auto text-center">
+          <button className="px-8 sm:px-12 py-4 bg-[#D4827A] text-white font-medium rounded-lg hover:opacity-90 transition-opacity">
+            Reserve My First Jar of Chewpies
+          </button>
+        </div>
+      </section>
+
       {/* Soft Divider */}
       <div className="h-px bg-gradient-to-r from-transparent via-[#E8C4B8] to-transparent mx-12"></div>
 
       {/* SECTION 8: SOCIAL PROOF / TESTIMONIALS */}
-      <section className="py-16 sm:py-20 lg:py-24 px-6 sm:px-8 lg:px-12 bg-white">
+      <section className="py-8 sm:py-10 lg:py-12 px-6 sm:px-8 lg:px-12 bg-white">
         <div className="max-w-3xl mx-auto text-center">
           <h2 className="text-3xl sm:text-4xl lg:text-5xl font-serif font-medium mb-12 text-[#2C2C2C] leading-tight">
             What small dog owners are saying.
@@ -201,10 +210,8 @@ export default function Index() {
               Sarah had already spent $50 on a supplement her Chihuahua refused to touch. She was frustrated, skeptical, and out of options. Then she tried Chewpies.
             </p>
 
-            <div className="flex justify-center gap-1 mb-4">
-              {[...Array(5)].map((_, i) => (
-                <div key={i} className="w-4 h-4 rounded-full bg-[#D4A574]"></div>
-              ))}
+            <div className="flex justify-center gap-1 mb-4 text-[#FFB800] text-xl">
+              ★ ★ ★ ★ ★
             </div>
 
             <p className="text-base sm:text-lg font-serif-garamond text-[#666666] leading-relaxed italic">
@@ -222,10 +229,8 @@ export default function Index() {
               James watched his Miniature Dachshund develop visible back stiffness at just four years old. He had tried everything. Nothing worked until it did.
             </p>
 
-            <div className="flex justify-center gap-1 mb-4">
-              {[...Array(5)].map((_, i) => (
-                <div key={i} className="w-4 h-4 rounded-full bg-[#D4A574]"></div>
-              ))}
+            <div className="flex justify-center gap-1 mb-4 text-[#FFB800] text-xl">
+              ★ ★ ★ ★ ★
             </div>
 
             <p className="text-base sm:text-lg font-serif-garamond text-[#666666] leading-relaxed italic">
@@ -243,10 +248,8 @@ export default function Index() {
               Michelle had stopped expecting her Pomeranian to jump up beside her on the couch. She had quietly accepted it as the new normal. Until the morning everything changed.
             </p>
 
-            <div className="flex justify-center gap-1 mb-4">
-              {[...Array(5)].map((_, i) => (
-                <div key={i} className="w-4 h-4 rounded-full bg-[#D4A574]"></div>
-              ))}
+            <div className="flex justify-center gap-1 mb-4 text-[#FFB800] text-xl">
+              ★ ★ ★ ★ ★
             </div>
 
             <p className="text-base sm:text-lg font-serif-garamond text-[#666666] leading-relaxed italic">
@@ -263,11 +266,20 @@ export default function Index() {
         </div>
       </section>
 
+      {/* CTA after Testimonials */}
+      <section className="py-8 sm:py-10 lg:py-12 px-6 sm:px-8 lg:px-12 bg-white">
+        <div className="max-w-3xl mx-auto text-center">
+          <button className="px-8 sm:px-12 py-4 bg-[#D4827A] text-white font-medium rounded-lg hover:opacity-90 transition-opacity">
+            Reserve My First Jar of Chewpies
+          </button>
+        </div>
+      </section>
+
       {/* Soft Divider */}
       <div className="h-px bg-gradient-to-r from-transparent via-[#E8C4B8] to-transparent mx-12"></div>
 
       {/* SECTION 9: PRODUCT DESCRIPTION */}
-      <section className="py-16 sm:py-20 lg:py-24 px-6 sm:px-8 lg:px-12 bg-white">
+      <section className="py-8 sm:py-10 lg:py-12 px-6 sm:px-8 lg:px-12 bg-white">
         <div className="max-w-3xl mx-auto text-center">
           <h2 className="text-3xl sm:text-4xl lg:text-5xl font-serif font-medium mb-12 text-[#2C2C2C] leading-tight">
             Introducing Chewpies Chewables.
@@ -282,8 +294,16 @@ export default function Index() {
             />
           </div>
 
+          <p className="text-base sm:text-lg text-[#666666] leading-relaxed">
+            Chewpies Chewables is a hip and joint soft chew formulated exclusively for dogs under 10kg.
+          </p>
+
+          <p className="text-base sm:text-lg text-[#666666] leading-relaxed">
+            Not a large dog formula cut into smaller pieces. Not a generic supplement with a small breed label on the front.
+          </p>
+
           <p className="text-base sm:text-lg text-[#666666] leading-relaxed mb-8">
-            Chewpies Chewables is a hip and joint soft chew formulated exclusively for dogs under 10kg. Not a large dog formula cut into smaller pieces. Not a generic supplement with a small breed label on the front. Precision-dosed from the ground up for the physical reality of tiny dogs navigating a human-sized world.
+            Precision-dosed from the ground up for the physical reality of tiny dogs navigating a human-sized world.
           </p>
 
           <p className="text-lg sm:text-xl font-serif font-medium text-[#2C2C2C]">
@@ -292,11 +312,20 @@ export default function Index() {
         </div>
       </section>
 
+      {/* CTA after Product Section */}
+      <section className="py-8 sm:py-10 lg:py-12 px-6 sm:px-8 lg:px-12 bg-white">
+        <div className="max-w-3xl mx-auto text-center">
+          <button className="px-8 sm:px-12 py-4 bg-[#D4827A] text-white font-medium rounded-lg hover:opacity-90 transition-opacity">
+            Reserve My First Jar of Chewpies
+          </button>
+        </div>
+      </section>
+
       {/* Soft Divider */}
       <div className="h-px bg-gradient-to-r from-transparent via-[#E8C4B8] to-transparent mx-12"></div>
 
       {/* SECTION 10: GUARANTEE */}
-      <section className="py-16 sm:py-20 lg:py-24 px-6 sm:px-8 lg:px-12 bg-white">
+      <section className="py-8 sm:py-10 lg:py-12 px-6 sm:px-8 lg:px-12 bg-white">
         <div className="max-w-3xl mx-auto text-center">
           <h2 className="text-3xl sm:text-4xl lg:text-5xl font-serif font-medium mb-8 text-[#2C2C2C]">
             The Empty Jar, Happy Dog Guarantee.
@@ -312,7 +341,7 @@ export default function Index() {
       <div className="h-px bg-gradient-to-r from-transparent via-[#E8C4B8] to-transparent mx-12"></div>
 
       {/* SECTION 11: PRE-CTA DESCENT */}
-      <section className="py-16 sm:py-20 lg:py-24 px-6 sm:px-8 lg:px-12 bg-white">
+      <section className="py-8 sm:py-10 lg:py-12 px-6 sm:px-8 lg:px-12 bg-white">
         <div className="max-w-3xl mx-auto text-center space-y-6">
           <p className="text-base sm:text-lg text-[#666666] leading-relaxed">
             Every day that passes without the right support is a day of cumulative wear your dog cannot get back.
@@ -328,7 +357,7 @@ export default function Index() {
       <div className="h-px bg-gradient-to-r from-transparent via-[#E8C4B8] to-transparent mx-12"></div>
 
       {/* SECTION 12: FINAL CALL TO ACTION */}
-      <section className="py-16 sm:py-20 lg:py-24 px-6 sm:px-8 lg:px-12 bg-white">
+      <section className="py-8 sm:py-10 lg:py-12 px-6 sm:px-8 lg:px-12 bg-white">
         <div className="max-w-3xl mx-auto text-center">
           <p className="text-base sm:text-lg text-[#666666] leading-relaxed mb-12">
             You noticed the signs when most owners would have looked away. Now do something about it.
@@ -365,7 +394,7 @@ export default function Index() {
       <div className="h-px bg-gradient-to-r from-transparent via-[#E8C4B8] to-transparent mx-12"></div>
 
       {/* SECTION 13: CLOSING TAGLINE */}
-      <section className="py-16 sm:py-20 lg:py-24 px-6 sm:px-8 lg:px-12 bg-white">
+      <section className="py-8 sm:py-10 lg:py-12 px-6 sm:px-8 lg:px-12 bg-white">
         <div className="max-w-3xl mx-auto text-center">
           <p className="text-sm sm:text-base italic text-[#666666]">
             Formulated for small dogs. By a small dog.
