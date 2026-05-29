@@ -14,7 +14,7 @@ export default function Index() {
       <div className="h-px bg-gradient-to-r from-transparent via-[#E8C4B8] to-transparent mx-12"></div>
 
       {/* SECTION 2: SUBHEADLINE */}
-      <section className="py-8 sm:py-10 lg:py-12 px-6 sm:px-8 lg:px-12">
+      <section className="py-16 sm:py-20 lg:py-20 px-6 sm:px-8 lg:px-12">
         <div className="max-w-3xl mx-auto text-center">
           <p className="text-lg sm:text-xl text-[#666666] mb-12 leading-relaxed">
             Most small dog owners only discover hidden joint damage after visible limping has already begun. By then, the wear is further along than anyone realised.
