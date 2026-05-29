@@ -30,21 +30,33 @@ export default function Index() {
 
       {/* SECTION 3: OPENING PARAGRAPH */}
       <section className="py-8 sm:py-10 lg:py-12 px-6 sm:px-8 lg:px-12 bg-white">
-        <div className="max-w-3xl mx-auto text-center space-y-6">
+        <div className="max-w-3xl mx-auto text-center space-y-4">
           <p className="text-base sm:text-lg text-[#666666] leading-relaxed">
-            She still follows you from room to room. A loyal little shadow whose entire world is built around keeping up with your footsteps.
+            She still follows you from room to room.
           </p>
           <p className="text-base sm:text-lg text-[#666666] leading-relaxed">
-            But lately you have noticed something. The briefest pause at the foot of the bed.
+            A loyal little shadow whose entire world is built around keeping up with your footsteps.
           </p>
           <p className="text-base sm:text-lg text-[#666666] leading-relaxed">
-            A quiet hesitation before the stairs. The way she stands at the edge of the sofa, looks up at you, and waits.
+            But lately you have noticed something.
+          </p>
+          <p className="text-base sm:text-lg text-[#666666] leading-relaxed">
+            The briefest pause at the foot of the bed.
+          </p>
+          <p className="text-base sm:text-lg text-[#666666] leading-relaxed">
+            A quiet hesitation before the stairs.
+          </p>
+          <p className="text-base sm:text-lg text-[#666666] leading-relaxed">
+            The way she stands at the edge of the sofa, looks up at you, and waits.
           </p>
           <p className="text-base sm:text-lg text-[#666666] leading-relaxed">
             You tell yourself she is just getting older.
           </p>
           <p className="text-base sm:text-lg text-[#666666] leading-relaxed">
-            But deep down, you know. She depends on you for everything.
+            But deep down, you know.
+          </p>
+          <p className="text-base sm:text-lg text-[#666666] leading-relaxed">
+            She depends on you for everything.
           </p>
           <p className="text-base sm:text-lg text-[#666666] leading-relaxed">
             And she cannot tell you when she is hurting.
