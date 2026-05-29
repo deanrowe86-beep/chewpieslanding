@@ -77,24 +77,39 @@ export default function Index() {
 
       {/* SECTION 5: BELIEF INTERRUPTION */}
       <section className="py-8 sm:py-10 lg:py-12 px-6 sm:px-8 lg:px-12 bg-white">
-        <div className="max-w-3xl mx-auto text-center space-y-6">
+        <div className="max-w-3xl mx-auto text-center space-y-4">
           <p className="text-base sm:text-lg text-[#666666] leading-relaxed">
-            Most owners assume the hesitation at the stairs is just age. It is not.
+            Most owners assume the hesitation at the stairs is just age.
           </p>
           <p className="text-base sm:text-lg text-[#666666] leading-relaxed">
-            Age is the timeline. Daily impact is the cause.
+            It is not.
+          </p>
+          <p className="text-base sm:text-lg text-[#666666] leading-relaxed">
+            Age is the timeline.
+          </p>
+          <p className="text-base sm:text-lg text-[#666666] leading-relaxed">
+            Daily impact is the cause.
           </p>
           <p className="text-base sm:text-lg text-[#666666] leading-relaxed">
             To a five-pound Chihuahua, jumping off a standard sofa is the physical equivalent of a human leaping from a first-storey roof.
           </p>
           <p className="text-base sm:text-lg text-[#666666] leading-relaxed">
-            Multiple times. Every single day. And toy breeds are wired by instinct to mask that discomfort long before any visible sign appears.
+            Multiple times.
+          </p>
+          <p className="text-base sm:text-lg text-[#666666] leading-relaxed">
+            Every single day.
+          </p>
+          <p className="text-base sm:text-lg text-[#666666] leading-relaxed">
+            And toy breeds are wired by instinct to mask that discomfort long before any visible sign appears.
           </p>
           <p className="text-base sm:text-lg text-[#666666] leading-relaxed">
             By the time limping shows up, the damage is often already advanced.
           </p>
           <p className="text-base sm:text-lg text-[#666666] leading-relaxed">
-            The hesitation you are noticing right now is not your dog slowing down. It is your dog asking for help in the only language she has.
+            The hesitation you are noticing right now is not your dog slowing down.
+          </p>
+          <p className="text-base sm:text-lg text-[#666666] leading-relaxed">
+            It is your dog asking for help in the only language she has.
           </p>
         </div>
       </section>
