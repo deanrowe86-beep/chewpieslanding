@@ -386,7 +386,7 @@ export default function Index() {
           </p>
 
           <p className="text-lg sm:text-xl font-serif font-medium text-[#2C2C2C]">
-            Formulated for small dogs. By a small dog.
+            Formulated for small dogs. <em>Finally.</em>
           </p>
         </div>
       </section>
@@ -499,7 +499,7 @@ export default function Index() {
       <section className="py-8 sm:py-10 lg:py-12 px-6 sm:px-8 lg:px-12 bg-white">
         <div className="max-w-3xl mx-auto text-center">
           <p className="text-sm sm:text-base italic text-[#666666]">
-            Formulated for small dogs. By a small dog.
+            Formulated for small dogs. <em>Finally.</em>
           </p>
         </div>
       </section>
