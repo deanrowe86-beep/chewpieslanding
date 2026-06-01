@@ -48,7 +48,7 @@ export default function Index() {
         </p>
 
         <p className="text-base sm:text-lg font-bold mb-6 text-[#D4827A] leading-snug">
-          We've formulated something special for small dogs. Be first in line.
+          We've formulated something special for small dogs. Be the first to protect their joints.
         </p>
 
 
@@ -58,24 +58,22 @@ export default function Index() {
           </p>
         ) : (
           <>
-            <form className="space-y-2 w-full" onSubmit={handleSubmit}>
-              <div className="flex flex-col sm:flex-row gap-3 w-full">
-                <input
-                  type="email"
-                  placeholder="Your email address"
-                  required
-                  value={email}
-                  onChange={(e) => setEmail(e.target.value)}
-                  className="w-full sm:flex-1 px-4 py-2 text-sm border border-[#E8C4B8] rounded-lg bg-white text-[#2C2C2C] placeholder:text-[#999999] focus:outline-none focus:border-[#A8B89C] transition-colors"
-                />
-                <button
-                  type="submit"
-                  disabled={isLoading}
-                  className="w-full sm:w-auto px-6 py-2 text-sm bg-[#D4827A] text-white font-medium rounded-lg hover:opacity-90 transition-opacity disabled:opacity-70 whitespace-nowrap"
-                >
-                  {isLoading ? "Joining..." : "Protect their joints"}
-                </button>
-              </div>
+            <form className="space-y-3 w-full" onSubmit={handleSubmit}>
+              <input
+                type="email"
+                placeholder="Your email address"
+                required
+                value={email}
+                onChange={(e) => setEmail(e.target.value)}
+                className="w-full px-4 py-2 text-sm border border-[#E8C4B8] rounded-lg bg-white text-[#2C2C2C] placeholder:text-[#999999] focus:outline-none focus:border-[#A8B89C] transition-colors"
+              />
+              <button
+                type="submit"
+                disabled={isLoading}
+                className="w-full px-6 py-3 text-base bg-[#D4827A] text-white font-medium rounded-lg hover:opacity-90 transition-opacity disabled:opacity-70"
+              >
+                {isLoading ? "Joining..." : "Protect their joints"}
+              </button>
               {error && (
                 <p className="text-center text-sm text-[#D4827A]">
                   {error}
