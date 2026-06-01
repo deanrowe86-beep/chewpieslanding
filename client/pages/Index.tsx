@@ -37,7 +37,7 @@ export default function Index() {
   };
 
   return (
-    <div className="w-full bg-white min-h-screen px-4 sm:px-8 flex items-center justify-center">
+    <div className="w-full bg-white min-h-screen px-4 sm:px-8 py-8 sm:py-12 flex items-center justify-center">
       <div className="w-full max-w-2xl text-center">
         <h1 className="text-xl sm:text-2xl lg:text-3xl font-serif font-medium mb-6 text-[#2C2C2C] leading-tight">
           Your small dog isn't slowing down because they're getting old. They're slowing down because it hurts.
@@ -59,19 +59,19 @@ export default function Index() {
         ) : (
           <>
             <form className="space-y-2 w-full" onSubmit={handleSubmit}>
-              <div className="flex gap-3 w-full">
+              <div className="flex flex-col sm:flex-row gap-3 w-full">
                 <input
                   type="email"
                   placeholder="Your email address"
                   required
                   value={email}
                   onChange={(e) => setEmail(e.target.value)}
-                  className="flex-1 px-4 py-2 text-sm border border-[#E8C4B8] rounded-lg bg-white text-[#2C2C2C] placeholder:text-[#999999] focus:outline-none focus:border-[#A8B89C] transition-colors"
+                  className="w-full sm:flex-1 px-4 py-2 text-sm border border-[#E8C4B8] rounded-lg bg-white text-[#2C2C2C] placeholder:text-[#999999] focus:outline-none focus:border-[#A8B89C] transition-colors"
                 />
                 <button
                   type="submit"
                   disabled={isLoading}
-                  className="px-6 py-2 text-sm bg-[#D4827A] text-white font-medium rounded-lg hover:opacity-90 transition-opacity disabled:opacity-70 whitespace-nowrap"
+                  className="w-full sm:w-auto px-6 py-2 text-sm bg-[#D4827A] text-white font-medium rounded-lg hover:opacity-90 transition-opacity disabled:opacity-70 whitespace-nowrap"
                 >
                   {isLoading ? "Joining..." : "Protect their joints"}
                 </button>
@@ -84,7 +84,7 @@ export default function Index() {
             </form>
 
             <div className="border-t border-b border-[#EEEEEE] py-4 my-6">
-              <div className="flex justify-between items-center text-xs text-[#888888] gap-4">
+              <div className="flex flex-col sm:flex-row justify-between items-center text-xs text-[#888888] gap-2 sm:gap-4">
                 <span>GMP certified manufacturing</span>
                 <span>90-day money back guarantee</span>
                 <span>Formulated for dogs under 10kg</span>
