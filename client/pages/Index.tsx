@@ -74,9 +74,6 @@ export default function Index() {
               >
                 {isLoading ? "Joining..." : "Protect their joints"}
               </button>
-              <p className="text-xs text-[#888888] leading-tight">
-                Join the waitlist. Get 20% off when we launch.
-              </p>
               {error && (
                 <p className="text-center text-sm text-[#D4827A]">
                   {error}
