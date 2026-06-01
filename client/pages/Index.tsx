@@ -48,7 +48,7 @@ export default function Index() {
         </p>
 
         <p className="text-base sm:text-lg font-bold mb-6 text-[#D4827A] leading-snug">
-          We've formulated something special for your small dog. Join the waitlist. We'll let you know once we launch.
+          We've formulated something special for your small dog. Join the waitlist. We'll let you know once we launch!
         </p>
 
 
@@ -72,7 +72,7 @@ export default function Index() {
                 disabled={isLoading}
                 className="w-full px-6 py-3 text-base bg-[#D4827A] text-white font-medium rounded-lg hover:opacity-90 transition-opacity disabled:opacity-70"
               >
-                {isLoading ? "Joining..." : "Sign me up, hooman."}
+                {isLoading ? "Joining..." : "Sign me up, hooman 🐾"}
               </button>
               {error && (
                 <p className="text-center text-sm text-[#D4827A]">
