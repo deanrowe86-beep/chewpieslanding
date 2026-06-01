@@ -44,11 +44,11 @@ export default function Index() {
         </h1>
 
         <p className="text-xs sm:text-sm text-[#888888] mb-6 leading-relaxed">
-          Small dogs absorb up to 6x their body weight in impact every time they jump off a couch. They live longer than large breeds. And they are hardwired to hide pain until the damage is already done.
+          Small dogs absorb up to 6x their body weight every time they jump off a couch. They live longer. And they hide pain until the damage is done.
         </p>
 
         <p className="text-base sm:text-lg font-bold mb-6 text-[#D4827A] leading-snug">
-          We've formulated something special for small dogs. Be the first to protect their joints.
+          We've formulated something special for small dogs. Be first.
         </p>
 
 
