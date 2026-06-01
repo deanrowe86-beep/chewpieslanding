@@ -72,7 +72,7 @@ export default function Index() {
                 disabled={isLoading}
                 className="w-full px-6 py-3 text-base bg-[#D4827A] text-white font-medium rounded-lg hover:opacity-90 transition-opacity disabled:opacity-70"
               >
-                {isLoading ? "Joining..." : "Sign me up, hooman!"}
+                {isLoading ? "Joining..." : "For the love of zoomies hooman!"}
               </button>
               {error && (
                 <p className="text-center text-sm text-[#D4827A]">
