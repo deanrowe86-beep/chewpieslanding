@@ -37,7 +37,7 @@ export default function Index() {
   };
 
   return (
-    <div className="w-full bg-white py-8 px-4 sm:px-8">
+    <div className="w-full bg-white px-4 sm:px-8 flex justify-center">
       <div className="w-full max-w-2xl text-center">
         <h1 className="text-xl sm:text-2xl lg:text-3xl font-serif font-medium mb-6 text-[#2C2C2C] leading-tight">
           Why jumping off your couch may be quietly destroying your small dog's joints years before you ever notice the signs.
@@ -85,6 +85,9 @@ export default function Index() {
                 alt="Chewpies Chewables"
                 className="w-64 sm:w-80"
               />
+              <p className="text-xs sm:text-sm text-[#666666] leading-tight mt-2">
+                Formulated specifically for small dogs under 10kg.
+              </p>
             </div>
           </>
         )}
