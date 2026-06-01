@@ -40,15 +40,15 @@ export default function Index() {
     <div className="w-full bg-white min-h-screen px-4 sm:px-8 flex items-center justify-center">
       <div className="w-full max-w-2xl text-center">
         <h1 className="text-xl sm:text-2xl lg:text-3xl font-serif font-medium mb-6 text-[#2C2C2C] leading-tight">
-          Why jumping off your couch may be quietly destroying your small dog's joints years before you ever notice the signs.
+          Your dog isn't slowing down because they're getting old. They're slowing down because it hurts.
         </h1>
 
-        <p className="text-base sm:text-lg font-bold mb-5 text-[#D4827A] leading-snug">
-          Most small dog owners don't see the damage until it's already done.
+        <p className="text-sm sm:text-base text-[#888888] mb-6 leading-relaxed">
+          Small dogs absorb up to 6x their body weight in impact every time they jump off a couch. They live longer than large breeds. And they are hardwired to hide pain until the damage is already done.
         </p>
 
-        <p className="text-sm sm:text-base text-[#666666] mb-6 leading-relaxed">
-          We're building a joint chew made only for dogs under 10kg. Be first to know. Get 20% off at launch.
+        <p className="text-base sm:text-lg font-bold mb-6 text-[#D4827A] leading-snug">
+          We built the only joint chew made exclusively for dogs under 10kg. Be first. Get 20% off at launch.
         </p>
 
 
@@ -59,21 +59,23 @@ export default function Index() {
         ) : (
           <>
             <form className="space-y-2 w-full" onSubmit={handleSubmit}>
-              <input
-                type="email"
-                placeholder="Your email address"
-                required
-                value={email}
-                onChange={(e) => setEmail(e.target.value)}
-                className="w-full px-4 py-2 text-sm border border-[#E8C4B8] rounded-lg bg-white text-[#2C2C2C] placeholder:text-[#999999] focus:outline-none focus:border-[#A8B89C] transition-colors"
-              />
-              <button
-                type="submit"
-                disabled={isLoading}
-                className="w-full px-6 py-2 text-sm bg-[#D4827A] text-white font-medium rounded-lg hover:opacity-90 transition-opacity disabled:opacity-70"
-              >
-                {isLoading ? "Joining..." : "Join the Waitlist"}
-              </button>
+              <div className="flex gap-3 w-full">
+                <input
+                  type="email"
+                  placeholder="Your email address"
+                  required
+                  value={email}
+                  onChange={(e) => setEmail(e.target.value)}
+                  className="flex-1 px-4 py-2 text-sm border border-[#E8C4B8] rounded-lg bg-white text-[#2C2C2C] placeholder:text-[#999999] focus:outline-none focus:border-[#A8B89C] transition-colors"
+                />
+                <button
+                  type="submit"
+                  disabled={isLoading}
+                  className="px-6 py-2 text-sm bg-[#D4827A] text-white font-medium rounded-lg hover:opacity-90 transition-opacity disabled:opacity-70 whitespace-nowrap"
+                >
+                  {isLoading ? "Joining..." : "Protect their joints"}
+                </button>
+              </div>
               <p className="text-xs text-[#999999] leading-tight">
                 No spam. Unsubscribe any time.
               </p>
@@ -83,6 +85,14 @@ export default function Index() {
                 </p>
               )}
             </form>
+
+            <div className="border-t border-b border-[#EEEEEE] py-4 my-6">
+              <div className="flex justify-between items-center text-xs text-[#888888] gap-4">
+                <span>GMP certified manufacturing</span>
+                <span>90-day money back guarantee</span>
+                <span>Formulated for dogs under 10kg</span>
+              </div>
+            </div>
             <div className="mt-3 flex flex-col items-center">
               <img
                 src="https://cdn.builder.io/api/v1/image/assets%2Fc70e54e2e4db4a77ba2ec462c6022187%2F6d86fa4f01a44ca0883c51281c777216?format=webp&width=800&height=1200"
