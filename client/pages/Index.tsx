@@ -47,9 +47,6 @@ export default function Index() {
           Get 20% off when we launch. Waitlist only.
         </p>
 
-        <p className="text-xs sm:text-sm text-[#666666] mb-6 leading-snug">
-          The first hip and joint chew formulated specifically for small dogs. <i>Finally.</i>
-        </p>
 
         {submitted ? (
           <p className="text-base sm:text-lg text-[#666666] leading-relaxed">
@@ -85,8 +82,8 @@ export default function Index() {
                 alt="Chewpies Chewables"
                 className="w-64 sm:w-80"
               />
-              <p className="text-xs sm:text-sm text-[#666666] leading-tight mt-2">
-                Formulated specifically for small dogs under 10kg.
+              <p className="text-xs sm:text-sm text-[#666666] leading-snug mt-2">
+                The first hip and joint chew formulated specifically for small dogs under 10kg. <i>Finally.</i>
               </p>
             </div>
           </>
