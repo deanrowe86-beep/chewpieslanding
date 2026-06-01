@@ -48,7 +48,7 @@ export default function Index() {
         </p>
 
         <p className="text-base sm:text-lg font-bold mb-6 text-[#D4827A] leading-snug">
-          We've formulated something special for small dogs. Be first.
+          We've formulated something special for your small dog. Join the waitlist and get 20% off when we launch.
         </p>
 
 
@@ -84,13 +84,6 @@ export default function Index() {
               )}
             </form>
 
-            <div className="border-t border-b border-[#EEEEEE] py-4 my-6">
-              <div className="flex flex-col sm:flex-row justify-between items-center text-xs text-[#888888] gap-2 sm:gap-4">
-                <span>GMP certified manufacturing</span>
-                <span>90-day money back guarantee</span>
-                <span>Formulated for dogs under 10kg</span>
-              </div>
-            </div>
             <div className="mt-3 flex flex-col items-center">
               <img
                 src="https://cdn.builder.io/api/v1/image/assets%2Fc70e54e2e4db4a77ba2ec462c6022187%2F6d86fa4f01a44ca0883c51281c777216?format=webp&width=800&height=1200"
