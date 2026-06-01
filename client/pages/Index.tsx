@@ -44,7 +44,11 @@ export default function Index() {
         </h1>
 
         <p className="text-base sm:text-lg font-bold mb-5 text-[#D4827A] leading-snug">
-          Get 20% off when we launch. Waitlist only.
+          Most small dog owners don't see the damage until it's already done.
+        </p>
+
+        <p className="text-sm sm:text-base text-[#666666] mb-6 leading-relaxed">
+          We're building a joint chew made only for dogs under 10kg. Be first to know. Get 20% off at launch.
         </p>
 
 
@@ -70,6 +74,9 @@ export default function Index() {
               >
                 {isLoading ? "Joining..." : "Join the Waitlist"}
               </button>
+              <p className="text-xs text-[#999999] leading-tight">
+                No spam. Unsubscribe any time.
+              </p>
               {error && (
                 <p className="text-center text-sm text-[#D4827A]">
                   {error}
