@@ -39,11 +39,15 @@ export default function Index() {
   return (
     <div className="w-full bg-white min-h-screen flex items-center justify-center px-4 sm:px-8">
       <div className="w-full max-w-2xl text-center">
-        <h1 className="text-xl sm:text-2xl lg:text-3xl font-serif font-medium mb-2 text-[#2C2C2C] leading-tight">
+        <h1 className="text-xl sm:text-2xl lg:text-3xl font-serif font-medium mb-3 text-[#2C2C2C] leading-tight">
           Why jumping off your couch may be quietly destroying your small dog's joints years before you ever notice the signs.
         </h1>
 
-        <p className="text-sm sm:text-base text-[#666666] mb-3 leading-snug">
+        <p className="text-base sm:text-lg font-bold mb-2 text-[#D4827A] leading-snug">
+          Get 20% off when we launch. Waitlist only.
+        </p>
+
+        <p className="text-xs sm:text-sm text-[#666666] mb-3 leading-snug">
           The first hip and joint chew formulated specifically for small dogs. <i>Finally.</i>
         </p>
 
@@ -69,9 +73,6 @@ export default function Index() {
               >
                 {isLoading ? "Joining..." : "Join the Waitlist"}
               </button>
-              <p className="text-xs text-[#666666] leading-tight mt-1">
-                Join the waitlist and get 20% off at launch.
-              </p>
               {error && (
                 <p className="text-center text-sm text-[#D4827A]">
                   {error}
