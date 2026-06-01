@@ -44,7 +44,7 @@ export default function Index() {
         </h1>
 
         <p className="text-lg sm:text-xl text-[#666666] mb-12 leading-relaxed">
-          Join the waitlist and get 20% off when we launch.
+          The first hip and joint chew formulated specifically for small dogs. <i>Finally.</i>
         </p>
 
         {submitted ? (
@@ -69,6 +69,9 @@ export default function Index() {
               >
                 {isLoading ? "Joining..." : "Join the Waitlist"}
               </button>
+              <p className="text-sm text-[#666666] leading-relaxed">
+                Join the waitlist and get 20% off at launch.
+              </p>
               {error && (
                 <p className="text-center text-sm text-[#D4827A]">
                   {error}
@@ -77,9 +80,9 @@ export default function Index() {
             </form>
             <div className="mt-12 flex flex-col items-center">
               <img
-                src="https://cdn.builder.io/api/v1/image/assets%2Fc70e54e2e4db4a77ba2ec462c6022187%2F8dafc4c17f0349e7ad1cac2c06cb1972?format=webp&width=800&height=1200"
+                src="https://cdn.builder.io/api/v1/image/assets%2Fc70e54e2e4db4a77ba2ec462c6022187%2F6d86fa4f01a44ca0883c51281c777216?format=webp&width=800&height=1200"
                 alt="Chewpies Chewables"
-                className="w-full max-w-xs mb-6"
+                className="w-full max-w-lg mb-6"
               />
               <p className="text-base sm:text-lg text-[#666666] leading-relaxed">
                 Scientifically formulated specifically for small dogs under 10 kg
