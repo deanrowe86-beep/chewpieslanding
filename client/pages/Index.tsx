@@ -83,7 +83,7 @@ export default function Index() {
                 className="w-64 sm:w-80"
               />
               <p className="text-xs sm:text-sm text-[#666666] leading-snug mt-2">
-                The first hip and joint chew formulated specifically for small dogs under 10kg. <i>Finally.</i>
+                Scientifically formulated for small dogs under 10kg. <i>Finally.</i>
               </p>
             </div>
           </>
