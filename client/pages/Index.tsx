@@ -37,13 +37,13 @@ export default function Index() {
   };
 
   return (
-    <div className="w-full bg-white min-h-screen flex items-center justify-center px-6 sm:px-8">
+    <div className="w-full bg-white h-screen flex items-center justify-center px-4 sm:px-8 overflow-hidden">
       <div className="w-full max-w-2xl text-center">
-        <h1 className="text-2xl sm:text-3xl lg:text-4xl font-serif font-medium mb-6 text-[#2C2C2C] leading-tight">
+        <h1 className="text-xl sm:text-2xl lg:text-3xl font-serif font-medium mb-2 text-[#2C2C2C] leading-tight">
           Why jumping off your couch may be quietly destroying your small dog's joints years before you ever notice the signs.
         </h1>
 
-        <p className="text-lg sm:text-xl text-[#666666] mb-12 leading-relaxed">
+        <p className="text-sm sm:text-base text-[#666666] mb-3 leading-snug">
           The first hip and joint chew formulated specifically for small dogs. <i>Finally.</i>
         </p>
 
@@ -53,23 +53,23 @@ export default function Index() {
           </p>
         ) : (
           <>
-            <form className="space-y-4 w-full" onSubmit={handleSubmit}>
+            <form className="space-y-2 w-full" onSubmit={handleSubmit}>
               <input
                 type="email"
                 placeholder="Your email address"
                 required
                 value={email}
                 onChange={(e) => setEmail(e.target.value)}
-                className="w-full px-6 py-3 border border-[#E8C4B8] rounded-lg bg-white text-[#2C2C2C] placeholder:text-[#999999] focus:outline-none focus:border-[#A8B89C] transition-colors"
+                className="w-full px-4 py-2 text-sm border border-[#E8C4B8] rounded-lg bg-white text-[#2C2C2C] placeholder:text-[#999999] focus:outline-none focus:border-[#A8B89C] transition-colors"
               />
               <button
                 type="submit"
                 disabled={isLoading}
-                className="w-full px-8 py-3 bg-[#D4827A] text-white font-medium rounded-lg hover:opacity-90 transition-opacity disabled:opacity-70"
+                className="w-full px-6 py-2 text-sm bg-[#D4827A] text-white font-medium rounded-lg hover:opacity-90 transition-opacity disabled:opacity-70"
               >
                 {isLoading ? "Joining..." : "Join the Waitlist"}
               </button>
-              <p className="text-sm text-[#666666] leading-relaxed">
+              <p className="text-xs text-[#666666] leading-tight mt-1">
                 Join the waitlist and get 20% off at launch.
               </p>
               {error && (
@@ -78,13 +78,13 @@ export default function Index() {
                 </p>
               )}
             </form>
-            <div className="mt-12 flex flex-col items-center">
+            <div className="mt-2 flex flex-col items-center">
               <img
                 src="https://cdn.builder.io/api/v1/image/assets%2Fc70e54e2e4db4a77ba2ec462c6022187%2F6d86fa4f01a44ca0883c51281c777216?format=webp&width=800&height=1200"
                 alt="Chewpies Chewables"
-                className="w-full max-w-lg mb-6"
+                className="w-20 sm:w-32 mb-2"
               />
-              <p className="text-base sm:text-lg text-[#666666] leading-relaxed">
+              <p className="text-xs sm:text-sm text-[#666666] leading-tight">
                 Scientifically formulated specifically for small dogs under 10 kg
               </p>
             </div>
