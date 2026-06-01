@@ -82,7 +82,7 @@ export default function Index() {
                 className="w-full max-w-xs mb-6"
               />
               <p className="text-base sm:text-lg text-[#666666] leading-relaxed">
-                Formulated specifically for small dogs under 10kg.
+                Scientifically formulated specifically for small dogs under 10 kg
               </p>
             </div>
           </>
