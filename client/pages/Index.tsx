@@ -48,7 +48,7 @@ export default function Index() {
         </p>
 
         <p className="text-base sm:text-lg font-bold mb-6 text-[#D4827A] leading-snug">
-          We've formulated something special for your small dog. Join the waitlist. We'll let you know once we launch.
+          The first joint chew built exclusively for dogs under 10kg. Not a large-breed formula cut small. Built from scratch for tiny joints. Join the waitlist and get early access pricing when we launch.
         </p>
 
 
@@ -72,8 +72,11 @@ export default function Index() {
                 disabled={isLoading}
                 className="w-full px-6 py-3 text-base bg-[#D4827A] text-white font-medium rounded-lg hover:opacity-90 transition-opacity disabled:opacity-70"
               >
-                {isLoading ? "Joining..." : "For the love of zoomies hooman!"}
+                {isLoading ? "Joining..." : "Yes. My dog deserves this."}
               </button>
+              <p className="text-xs text-[#888888] leading-tight">
+                No spam. One email when we launch.
+              </p>
               {error && (
                 <p className="text-center text-sm text-[#D4827A]">
                   {error}
