@@ -52,28 +52,40 @@ export default function Index() {
             Thank you for joining the waitlist!
           </p>
         ) : (
-          <form className="space-y-4 w-full" onSubmit={handleSubmit}>
-            <input
-              type="email"
-              placeholder="Your email address"
-              required
-              value={email}
-              onChange={(e) => setEmail(e.target.value)}
-              className="w-full px-6 py-3 border border-[#E8C4B8] rounded-lg bg-white text-[#2C2C2C] placeholder:text-[#999999] focus:outline-none focus:border-[#A8B89C] transition-colors"
-            />
-            <button
-              type="submit"
-              disabled={isLoading}
-              className="w-full px-8 py-3 bg-[#D4827A] text-white font-medium rounded-lg hover:opacity-90 transition-opacity disabled:opacity-70"
-            >
-              {isLoading ? "Joining..." : "Join the Waitlist"}
-            </button>
-            {error && (
-              <p className="text-center text-sm text-[#D4827A]">
-                {error}
+          <>
+            <form className="space-y-4 w-full" onSubmit={handleSubmit}>
+              <input
+                type="email"
+                placeholder="Your email address"
+                required
+                value={email}
+                onChange={(e) => setEmail(e.target.value)}
+                className="w-full px-6 py-3 border border-[#E8C4B8] rounded-lg bg-white text-[#2C2C2C] placeholder:text-[#999999] focus:outline-none focus:border-[#A8B89C] transition-colors"
+              />
+              <button
+                type="submit"
+                disabled={isLoading}
+                className="w-full px-8 py-3 bg-[#D4827A] text-white font-medium rounded-lg hover:opacity-90 transition-opacity disabled:opacity-70"
+              >
+                {isLoading ? "Joining..." : "Join the Waitlist"}
+              </button>
+              {error && (
+                <p className="text-center text-sm text-[#D4827A]">
+                  {error}
+                </p>
+              )}
+            </form>
+            <div className="mt-12 flex flex-col items-center">
+              <img
+                src="https://cdn.builder.io/api/v1/image/assets%2Fc70e54e2e4db4a77ba2ec462c6022187%2F5b1334fe1e2a45ccaa000efda6ccf7ab?format=webp&width=800&height=1200"
+                alt="Chewpies Chewables"
+                className="w-full max-w-xs mb-6"
+              />
+              <p className="text-base sm:text-lg text-[#666666] leading-relaxed">
+                Formulated specifically for small dogs under 10kg.
               </p>
-            )}
-          </form>
+            </div>
+          </>
         )}
       </div>
     </div>
