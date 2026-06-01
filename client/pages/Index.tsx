@@ -77,7 +77,7 @@ export default function Index() {
             </form>
             <div className="mt-12 flex flex-col items-center">
               <img
-                src="https://cdn.builder.io/api/v1/image/assets%2Fc70e54e2e4db4a77ba2ec462c6022187%2F5b1334fe1e2a45ccaa000efda6ccf7ab?format=webp&width=800&height=1200"
+                src="https://cdn.builder.io/api/v1/image/assets%2Fc70e54e2e4db4a77ba2ec462c6022187%2F8dafc4c17f0349e7ad1cac2c06cb1972?format=webp&width=800&height=1200"
                 alt="Chewpies Chewables"
                 className="w-full max-w-xs mb-6"
               />
