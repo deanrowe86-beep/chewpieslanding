@@ -37,17 +37,17 @@ export default function Index() {
   };
 
   return (
-    <div className="w-full bg-white min-h-screen flex items-center justify-center px-4 sm:px-8">
+    <div className="w-full bg-white py-8 px-4 sm:px-8">
       <div className="w-full max-w-2xl text-center">
-        <h1 className="text-xl sm:text-2xl lg:text-3xl font-serif font-medium mb-3 text-[#2C2C2C] leading-tight">
+        <h1 className="text-xl sm:text-2xl lg:text-3xl font-serif font-medium mb-6 text-[#2C2C2C] leading-tight">
           Why jumping off your couch may be quietly destroying your small dog's joints years before you ever notice the signs.
         </h1>
 
-        <p className="text-base sm:text-lg font-bold mb-2 text-[#D4827A] leading-snug">
+        <p className="text-base sm:text-lg font-bold mb-5 text-[#D4827A] leading-snug">
           Get 20% off when we launch. Waitlist only.
         </p>
 
-        <p className="text-xs sm:text-sm text-[#666666] mb-3 leading-snug">
+        <p className="text-xs sm:text-sm text-[#666666] mb-6 leading-snug">
           The first hip and joint chew formulated specifically for small dogs. <i>Finally.</i>
         </p>
 
@@ -79,7 +79,7 @@ export default function Index() {
                 </p>
               )}
             </form>
-            <div className="mt-2 flex flex-col items-center">
+            <div className="mt-3 flex flex-col items-center">
               <img
                 src="https://cdn.builder.io/api/v1/image/assets%2Fc70e54e2e4db4a77ba2ec462c6022187%2F6d86fa4f01a44ca0883c51281c777216?format=webp&width=800&height=1200"
                 alt="Chewpies Chewables"
