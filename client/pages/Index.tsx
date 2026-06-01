@@ -48,7 +48,7 @@ export default function Index() {
         </p>
 
         <p className="text-base sm:text-lg font-bold mb-6 text-[#D4827A] leading-snug">
-          We built the only joint chew made exclusively for dogs under 10kg. Be first. Get 20% off at launch.
+          We've formulated something special for small dogs. Be first in line.
         </p>
 
 
