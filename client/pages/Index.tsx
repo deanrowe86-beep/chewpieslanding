@@ -40,10 +40,10 @@ export default function Index() {
     <div className="w-full bg-white min-h-screen px-4 sm:px-8 flex items-center justify-center">
       <div className="w-full max-w-2xl text-center">
         <h1 className="text-xl sm:text-2xl lg:text-3xl font-serif font-medium mb-6 text-[#2C2C2C] leading-tight">
-          Your dog isn't slowing down because they're getting old. They're slowing down because it hurts.
+          Your small dog isn't slowing down because they're getting old. They're slowing down because it hurts.
         </h1>
 
-        <p className="text-sm sm:text-base text-[#888888] mb-6 leading-relaxed">
+        <p className="text-xs sm:text-sm text-[#888888] mb-6 leading-relaxed">
           Small dogs absorb up to 6x their body weight in impact every time they jump off a couch. They live longer than large breeds. And they are hardwired to hide pain until the damage is already done.
         </p>
 
